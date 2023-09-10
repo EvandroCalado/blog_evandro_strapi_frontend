@@ -1,7 +1,7 @@
 export const lightTheme = {
   colors: {
     primary: '#020415',
-    secondary: '#f5f5f5',
+    secondary: '#383fef',
     warning: '#e11d48',
     success: '#16a34a',
     info: '#3b82f6',
@@ -102,7 +102,7 @@ export const lightTheme = {
 export const darkTheme = {
   colors: {
     primary: '#020415',
-    secondary: '#f5f5f5',
+    secondary: '#383fef',
     warning: '#e11d48',
     success: '#16a34a',
     info: '#3b82f6',
@@ -124,7 +124,7 @@ export const darkTheme = {
   },
   font: {
     family: {
-      primary: "'Inter', sans-serif;",
+      primary: "'Oswald', sans-serif;",
     },
     sizes: {
       xs: '.8rem',
