@@ -13,9 +13,10 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
+    height: 100vh;
     font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.primary};
-    background-color: ${({ theme }) => theme.colors.background};
+    background-image: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
   }
 
