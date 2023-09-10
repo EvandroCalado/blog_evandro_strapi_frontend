@@ -18,10 +18,12 @@ export const GlobalStyles = createGlobalStyle`
     font-family: ${({ theme }) => theme.font.family.primary};
     background-image: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
+    font-weight: 600;
   }
 
   a {
     text-decoration: none;
+    color: inherit;
   }
 
   ol, ul {
