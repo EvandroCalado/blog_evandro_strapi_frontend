@@ -1,0 +1,744 @@
+{
+  "data": {
+    "setting": {
+      "data": {
+        "id": "1",
+        "attributes": {
+          "blogName": "Evandro Calado",
+          "blogDescription": "Blog para estudos e portifolio de projetos",
+          "logo": {
+            "data": {
+              "id": "1",
+              "attributes": {
+                "name": "110628201.jpeg",
+                "alternativeText": null,
+                "width": 460,
+                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/110628201_8f98b88d6a.jpg",
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".jpeg",
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/thumbnail_110628201_8f98b88d6a.jpg",
+                    "hash": "thumbnail_110628201_8f98b88d6a",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_110628201.jpeg",
+                    "path": null,
+                    "size": 5.96,
+                    "width": 156,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_110628201_8f98b88d6a",
+                      "resource_type": "image"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "menuLink": [
+            {
+              "id": "1",
+              "link": "/",
+              "text": "Home",
+              "newTab": false
+            },
+            {
+              "id": "2",
+              "link": "/about",
+              "text": "Sobre min",
+              "newTab": false
+            },
+            {
+              "id": "3",
+              "link": "/projects",
+              "text": "Projetos",
+              "newTab": false
+            },
+            {
+              "id": "4",
+              "link": "/blog",
+              "text": "Blog",
+              "newTab": false
+            },
+            {
+              "id": "5",
+              "link": "/contact",
+              "text": "Contato",
+              "newTab": false
+            }
+          ],
+          "footer": "<p>Evandro Calado</p>"
+        }
+      }
+    },
+    "posts": {
+      "data": [
+        {
+          "id": "4",
+          "attributes": {
+            "title": "Strapi: Desenvolvimento de APIs e CMS Flexíveis e Eficientes",
+            "slug": "strapi-desenvolvimento-de-ap-is-e-cms-flexiveis-e-eficientes",
+            "excerpt": "Strapi é um sistema de gerenciamento de conteúdo (CMS) e framework de desenvolvimento de APIs de código aberto. Ele oferece uma interface amigável para criar e gerenciar conteúdo, além de permitir que os desenvolvedores criem APIs personalizadas para suas aplicações.",
+            "cover": {
+              "data": [
+                {
+                  "attributes": {
+                    "name": "pexels-lina-kivaka-14557287.jpg",
+                    "alternativeText": null,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/pexels_lina_kivaka_14557287_039aa5b29b.jpg",
+                    "width": 1280,
+                    "height": 854,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/large_pexels_lina_kivaka_14557287_039aa5b29b.jpg",
+                        "hash": "large_pexels_lina_kivaka_14557287_039aa5b29b",
+                        "mime": "image/jpeg",
+                        "name": "large_pexels-lina-kivaka-14557287.jpg",
+                        "path": null,
+                        "size": 137.25,
+                        "width": 1000,
+                        "height": 667,
+                        "provider_metadata": {
+                          "public_id": "large_pexels_lina_kivaka_14557287_039aa5b29b",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/small_pexels_lina_kivaka_14557287_039aa5b29b.jpg",
+                        "hash": "small_pexels_lina_kivaka_14557287_039aa5b29b",
+                        "mime": "image/jpeg",
+                        "name": "small_pexels-lina-kivaka-14557287.jpg",
+                        "path": null,
+                        "size": 38.03,
+                        "width": 500,
+                        "height": 334,
+                        "provider_metadata": {
+                          "public_id": "small_pexels_lina_kivaka_14557287_039aa5b29b",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/medium_pexels_lina_kivaka_14557287_039aa5b29b.jpg",
+                        "hash": "medium_pexels_lina_kivaka_14557287_039aa5b29b",
+                        "mime": "image/jpeg",
+                        "name": "medium_pexels-lina-kivaka-14557287.jpg",
+                        "path": null,
+                        "size": 80.07,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_pexels_lina_kivaka_14557287_039aa5b29b",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225571/thumbnail_pexels_lina_kivaka_14557287_039aa5b29b.jpg",
+                        "hash": "thumbnail_pexels_lina_kivaka_14557287_039aa5b29b",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_pexels-lina-kivaka-14557287.jpg",
+                        "path": null,
+                        "size": 9.1,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_pexels_lina_kivaka_14557287_039aa5b29b",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "content": "<p>No mundo moderno de desenvolvimento de aplicativos e websites, a flexibilidade e eficiência na gestão de conteúdo e APIs são essenciais. É aí que entra o Strapi, uma plataforma de código aberto que tem ganhado destaque na comunidade de desenvolvedores. Neste post, exploraremos o Strapi em profundidade, discutindo seus recursos, conceitos fundamentais e fornecendo exemplos práticos para mostrar como você pode criar APIs e sistemas de gerenciamento de conteúdo de forma eficiente.</p><h2>O que é o Strapi?</h2><p><br>Strapi é um sistema de gerenciamento de conteúdo (CMS) e framework de desenvolvimento de APIs de código aberto. Ele oferece uma interface amigável para criar e gerenciar conteúdo, além de permitir que os desenvolvedores criem APIs personalizadas para suas aplicações.</p><h2>Principais Conceitos do Strapi:</h2><p>1. <strong>Coleções e Tipos de Conteúdo:</strong> No Strapi, você define a estrutura do seu conteúdo através de coleções e tipos de conteúdo. Por exemplo, você pode criar uma coleção \"Artigos\" com campos como título, autor e conteúdo.</p><p>2. <strong>Campos Relacionados:</strong> É possível criar relacionamentos entre coleções, o que permite construir estruturas de dados complexas. Por exemplo, um artigo pode estar relacionado a uma categoria ou a um autor.</p><p>3. <strong>Roles e Permissões:</strong> O Strapi oferece um sistema de gerenciamento de permissões robusto, onde você pode definir papéis (roles) e determinar quais ações são permitidas para cada usuário ou grupo.</p><p>4. <strong>Plugins e Extensibilidade:</strong> O Strapi é altamente extensível e permite a criação de plugins para estender sua funcionalidade. Você pode criar plugins personalizados ou usar os disponíveis na comunidade.</p><h2>Recursos e Vantagens do Strapi:</h2><ul><li><strong>Código Aberto:</strong> O Strapi é totalmente de código aberto, o que significa que você tem controle total sobre seu projeto e não fica restrito por licenças.</li><li><strong>Flexibilidade:</strong> O Strapi oferece uma grande flexibilidade na criação e personalização de tipos de conteúdo, tornando-o adequado para uma ampla gama de aplicações.</li><li><strong>Interface Amigável:</strong> A interface de administração do Strapi é amigável e fácil de usar, permitindo que não desenvolvedores gerenciem conteúdo de forma eficiente.</li><li><strong>Autenticação Integrada:</strong> O Strapi inclui autenticação integrada, o que facilita a implementação de sistemas de registro e login.</li><li><strong>Segurança:</strong> O Strapi oferece recursos de segurança, como proteção contra injeção de SQL e autenticação JWT (JSON Web Tokens).</li></ul><h2>Exemplos de Uso do Strapi:</h2><ol style=\"list-style-type:decimal-leading-zero;\"><li><strong>Blog Pessoal com API:</strong> Use o Strapi para criar um blog pessoal e uma API para fornecer conteúdo para um aplicativo frontend.</li><li><strong>Sistema de Gerenciamento de Conteúdo:</strong> Desenvolva um sistema de gerenciamento de conteúdo flexível para um site que precise de atualizações frequentes.</li><li><strong>E-commerce:</strong> Crie um sistema de backend para um site de comércio eletrônico, gerenciando produtos, pedidos e categorias.</li><li><strong>Aplicativos Móveis:</strong> Use o Strapi para criar uma API para aplicativos móveis, fornecendo dados dinâmicos e atualizados em tempo real.</li></ol><h2>Exemplo de Código Strapi:</h2><p>Aqui está um exemplo simples de como definir uma coleção \"Artigo\" com o Strapi:</p><pre><code class=\"language-typescript\">\n// Em configurações do Strapi, defina um novo tipo de conteúdo chamado \"Artigo\"\nmodule.exports = {\n definition: {\n   nome: \"string\",\n   autor: {\n     model: \"autor\",\n   },\n   conteudo: \"text\",\n },\n};\n</code></pre><h2>Conclusão:<br>&nbsp;</h2><p>O Strapi é uma ferramenta poderosa para o desenvolvimento de APIs e sistemas de gerenciamento de conteúdo. Sua flexibilidade, extensibilidade e interface amigável o tornam uma escolha excelente para uma variedade de projetos, desde blogs pessoais até aplicações empresariais complexas. Se você busca uma solução de código aberto para seus projetos de desenvolvimento web, o Strapi é definitivamente uma opção a ser considerada. Continue explorando e experimentando com o Strapi para aproveitar ao máximo seus recursos.</p>",
+            "allowComments": true,
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Api",
+                    "slug": "api"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Backend",
+                    "slug": "backend"
+                  }
+                }
+              ]
+            },
+            "categories": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Strapi",
+                    "slug": "strapi",
+                    "color": "#1e3a8a"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Node",
+                    "slug": "node",
+                    "color": "#10b981"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Evandro Calado",
+                  "slug": "evandro-calado",
+                  "image": {
+                    "data": {
+                      "id": "1",
+                      "attributes": {
+                        "name": "110628201.jpeg",
+                        "alternativeText": null,
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/110628201_8f98b88d6a.jpg",
+                        "width": 460,
+                        "height": 460,
+                        "formats": {
+                          "thumbnail": {
+                            "ext": ".jpeg",
+                            "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/thumbnail_110628201_8f98b88d6a.jpg",
+                            "hash": "thumbnail_110628201_8f98b88d6a",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_110628201.jpeg",
+                            "path": null,
+                            "size": 5.96,
+                            "width": 156,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_110628201_8f98b88d6a",
+                              "resource_type": "image"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "createdAt": "2023-09-09T02:44:44.980Z",
+            "updatedAt": "2023-09-09T02:44:57.904Z",
+            "publishedAt": "2023-09-09T02:44:57.451Z"
+          }
+        },
+        {
+          "id": "3",
+          "attributes": {
+            "title": "Next.js: Desvendando a Magia do Desenvolvimento Web Moderno",
+            "slug": "next-js-desvendando-a-magia-do-desenvolvimento-web-moderno",
+            "excerpt": "O Next.js é uma estrutura de desenvolvimento web de código aberto construída sobre o React. Ele oferece uma variedade de recursos avançados que facilitam a criação de aplicativos web modernos e eficientes. Alguns dos principais recursos incluem:",
+            "cover": {
+              "data": [
+                {
+                  "attributes": {
+                    "name": "pexels-utpal-chatterjee-16401141.jpg",
+                    "alternativeText": null,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/pexels_utpal_chatterjee_16401141_5048d3dc95.jpg",
+                    "width": 1279,
+                    "height": 853,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/large_pexels_utpal_chatterjee_16401141_5048d3dc95.jpg",
+                        "hash": "large_pexels_utpal_chatterjee_16401141_5048d3dc95",
+                        "mime": "image/jpeg",
+                        "name": "large_pexels-utpal-chatterjee-16401141.jpg",
+                        "path": null,
+                        "size": 150.78,
+                        "width": 1000,
+                        "height": 667,
+                        "provider_metadata": {
+                          "public_id": "large_pexels_utpal_chatterjee_16401141_5048d3dc95",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/small_pexels_utpal_chatterjee_16401141_5048d3dc95.jpg",
+                        "hash": "small_pexels_utpal_chatterjee_16401141_5048d3dc95",
+                        "mime": "image/jpeg",
+                        "name": "small_pexels-utpal-chatterjee-16401141.jpg",
+                        "path": null,
+                        "size": 44.48,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_pexels_utpal_chatterjee_16401141_5048d3dc95",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/medium_pexels_utpal_chatterjee_16401141_5048d3dc95.jpg",
+                        "hash": "medium_pexels_utpal_chatterjee_16401141_5048d3dc95",
+                        "mime": "image/jpeg",
+                        "name": "medium_pexels-utpal-chatterjee-16401141.jpg",
+                        "path": null,
+                        "size": 90.86,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_pexels_utpal_chatterjee_16401141_5048d3dc95",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/thumbnail_pexels_utpal_chatterjee_16401141_5048d3dc95.jpg",
+                        "hash": "thumbnail_pexels_utpal_chatterjee_16401141_5048d3dc95",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_pexels-utpal-chatterjee-16401141.jpg",
+                        "path": null,
+                        "size": 11.36,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_pexels_utpal_chatterjee_16401141_5048d3dc95",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "content": "<p>O Next.js é uma estrutura de desenvolvimento web que tem revolucionado a maneira como criamos aplicações na web. Se você está em busca de uma solução que combina o poder do React com recursos avançados, como renderização no lado do servidor (SSR) e geração de páginas estáticas (SSG), este post é para você. Vamos explorar profundamente o Next.js, entender seus conceitos fundamentais e demonstrar como usá-lo para criar aplicações web incríveis.</p><h2>O que é o Next.js?</h2><p><br>O Next.js é uma estrutura de desenvolvimento web de código aberto construída sobre o React. Ele oferece uma variedade de recursos avançados que facilitam a criação de aplicativos web modernos e eficientes. Alguns dos principais recursos incluem:</p><p>1. <strong>Renderização no Lado do Servidor (SSR):</strong> O Next.js permite renderizar páginas no servidor, tornando-as mais rápidas de carregar e otimizadas para mecanismos de busca.</p><p>2. <strong>Geração de Páginas Estáticas (SSG):</strong> O Next.js pode gerar páginas estáticas em tempo de compilação, reduzindo a carga no servidor e melhorando o desempenho.</p><p>3. <strong>Roteamento Integrado:</strong> O Next.js inclui um sistema de roteamento simples e flexível que facilita a criação de URLs amigáveis.</p><p>4. <strong>Pronto para Produção:</strong> Ele vem com ferramentas integradas para otimização de produção, como compactação de código, geração de imagens otimizadas e muito mais.</p><h2>Principais Conceitos do Next.js:</h2><p>1. <strong>Páginas:</strong> Em um projeto Next.js, cada arquivo dentro da pasta \"pages\" se torna uma rota acessível em seu aplicativo. Por exemplo:</p><pre><code class=\"language-typescript\">\n// pages/index.js\nfunction HomePage() {\n return &lt;div&gt;Página Inicial&lt;/div&gt;;\n}\nexport default HomePage;\n</code></pre><p>2. <strong>Componentes:</strong> Assim como no React, o Next.js utiliza componentes para organizar a interface do usuário. Esses componentes podem ser reutilizados em várias páginas.</p><pre><code class=\"language-typescript\">\n// components/Header.js\nfunction Header() {\n return &lt;header&gt;Meu Cabeçalho&lt;/header&gt;;\n}\nexport default Header;\n</code></pre><p>3. <strong>Roteamento:</strong> O Next.js inclui um sistema de roteamento simples para navegar entre páginas. Você pode usar o componente `Link` para criar links internos em seu aplicativo.</p><pre><code class=\"language-typescript\">\nimport Link from 'next/link';\nfunction Menu() {\n return (\n   &lt;nav&gt;\n     &lt;Link href=\"/\"&gt;Início&lt;/Link&gt;\n     &lt;Link href=\"/sobre\"&gt;Sobre&lt;/Link&gt;\n     &lt;Link href=\"/contato\"&gt;Contato&lt;/Link&gt;\n   &lt;/nav&gt;\n );\n}\nexport default Menu;\n</code></pre><p>4. <strong>Estilos:</strong> O Next.js suporta diferentes métodos para lidar com estilos, desde CSS tradicional até CSS-in-JS. Você pode escolher a abordagem que melhor se adapta ao seu projeto.</p><h2>Exemplos de Uso do Next.js:</h2><p>1. <strong>Renderização no Lado do Servidor (SSR):</strong> O Next.js torna fácil criar páginas que são renderizadas no servidor, garantindo uma rápida exibição do conteúdo.</p><pre><code class=\"language-typescript\">\n// pages/sobre.js\nfunction Sobre() {\n return &lt;div&gt;Esta é a página Sobre&lt;/div&gt;;\n}\nexport default Sobre;\n</code></pre><p>2. <strong>Geração de Páginas Estáticas (SSG):</strong> Você pode gerar páginas estáticas em tempo de compilação usando o método `getStaticProps`.</p><pre><code class=\"language-typescript\">\n// pages/blog/[slug].js\nexport async function getStaticProps(context) {\n // Buscar dados do blog com base no slug\n const dados = await fetchBlogData(context.params.slug);\n return {\n   props: {\n     dados,\n   },\n };\n}\nfunction Blog({ dados }) {\n return &lt;div&gt;{dados.titulo}&lt;/div&gt;;\n}\nexport default Blog;\n</code></pre><p>3. <strong>Roteamento Dinâmico:</strong> O Next.js permite criar rotas dinâmicas, o que é útil para páginas com URLs variáveis.</p><pre><code class=\"language-typescript\">\n// pages/produtos/[id].js\nfunction Produto({ id }) {\n return &lt;div&gt;Produto ID: {id}&lt;/div&gt;;\n}\nexport default Produto;\n</code></pre><h2>Conclusão:<br>&nbsp;</h2><p>O Next.js é uma ferramenta incrivelmente poderosa para o desenvolvimento web moderno. Ele oferece recursos como SSR e SSG que podem melhorar significativamente o desempenho e a otimização de seu aplicativo. Compreender os conceitos básicos e explorar os recursos avançados do Next.js abrirá um mundo de possibilidades na criação de aplicativos web eficientes e rápidos. Continue praticando e explorando, e você estará bem encaminhado para se tornar um mestre no desenvolvimento web com o Next.js.</p>",
+            "allowComments": true,
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Frontend",
+                    "slug": "frontend"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Web",
+                    "slug": "web"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "UseEffect",
+                    "slug": "use-effect"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "UseState",
+                    "slug": "use-state"
+                  }
+                }
+              ]
+            },
+            "categories": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Javascript",
+                    "slug": "javascript",
+                    "color": "#eab308"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "React",
+                    "slug": "react",
+                    "color": "#06b6d4"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Next",
+                    "slug": "next",
+                    "color": "#0c0a09"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Evandro Calado",
+                  "slug": "evandro-calado",
+                  "image": {
+                    "data": {
+                      "id": "1",
+                      "attributes": {
+                        "name": "110628201.jpeg",
+                        "alternativeText": null,
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/110628201_8f98b88d6a.jpg",
+                        "width": 460,
+                        "height": 460,
+                        "formats": {
+                          "thumbnail": {
+                            "ext": ".jpeg",
+                            "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/thumbnail_110628201_8f98b88d6a.jpg",
+                            "hash": "thumbnail_110628201_8f98b88d6a",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_110628201.jpeg",
+                            "path": null,
+                            "size": 5.96,
+                            "width": 156,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_110628201_8f98b88d6a",
+                              "resource_type": "image"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "createdAt": "2023-09-09T02:38:38.329Z",
+            "updatedAt": "2023-09-09T02:38:51.091Z",
+            "publishedAt": "2023-09-09T02:38:50.634Z"
+          }
+        },
+        {
+          "id": "2",
+          "attributes": {
+            "title": "React: Construindo Interfaces Modernas e Reativas",
+            "slug": "react-construindo-interfaces-modernas-e-reativas",
+            "excerpt": "O React é uma biblioteca JavaScript de código aberto mantida pelo Facebook e por uma comunidade ativa de desenvolvedores. Ele foi projetado para criar interfaces de usuário (UI) reutilizáveis e responsivas em aplicações web. A principal característica do React é a sua abordagem centrada em componentes, que permite dividir a UI em partes menores e reutilizáveis chamadas de \"componentes\".",
+            "cover": {
+              "data": [
+                {
+                  "attributes": {
+                    "name": "pexels-nandu-vasudevan-10920674.jpg",
+                    "alternativeText": null,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/pexels_nandu_vasudevan_10920674_ceb67d8e65.jpg",
+                    "width": 1280,
+                    "height": 960,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/large_pexels_nandu_vasudevan_10920674_ceb67d8e65.jpg",
+                        "hash": "large_pexels_nandu_vasudevan_10920674_ceb67d8e65",
+                        "mime": "image/jpeg",
+                        "name": "large_pexels-nandu-vasudevan-10920674.jpg",
+                        "path": null,
+                        "size": 150.55,
+                        "width": 1000,
+                        "height": 750,
+                        "provider_metadata": {
+                          "public_id": "large_pexels_nandu_vasudevan_10920674_ceb67d8e65",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/small_pexels_nandu_vasudevan_10920674_ceb67d8e65.jpg",
+                        "hash": "small_pexels_nandu_vasudevan_10920674_ceb67d8e65",
+                        "mime": "image/jpeg",
+                        "name": "small_pexels-nandu-vasudevan-10920674.jpg",
+                        "path": null,
+                        "size": 43.74,
+                        "width": 500,
+                        "height": 375,
+                        "provider_metadata": {
+                          "public_id": "small_pexels_nandu_vasudevan_10920674_ceb67d8e65",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/medium_pexels_nandu_vasudevan_10920674_ceb67d8e65.jpg",
+                        "hash": "medium_pexels_nandu_vasudevan_10920674_ceb67d8e65",
+                        "mime": "image/jpeg",
+                        "name": "medium_pexels-nandu-vasudevan-10920674.jpg",
+                        "path": null,
+                        "size": 89.08,
+                        "width": 750,
+                        "height": 563,
+                        "provider_metadata": {
+                          "public_id": "medium_pexels_nandu_vasudevan_10920674_ceb67d8e65",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/thumbnail_pexels_nandu_vasudevan_10920674_ceb67d8e65.jpg",
+                        "hash": "thumbnail_pexels_nandu_vasudevan_10920674_ceb67d8e65",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_pexels-nandu-vasudevan-10920674.jpg",
+                        "path": null,
+                        "size": 9.01,
+                        "width": 208,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_pexels_nandu_vasudevan_10920674_ceb67d8e65",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "content": "<h2>React: Construindo Interfaces Modernas e Reativas</h2><p>&nbsp;</p><p>O <a href=\"https://react.dev/\">React</a> é uma das bibliotecas JavaScript mais populares e amplamente usadas para desenvolvimento de interfaces de usuário modernas e reativas. Neste post, vamos mergulhar no emocionante mundo do React, explorando seus conceitos fundamentais, suas vantagens, e forneceremos exemplos práticos de código para ajudá-lo a começar a criar aplicações web incríveis. Se você é novo no React ou deseja aprimorar suas habilidades, continue lendo e embarque nesta jornada de aprendizado.</p><h2>O que é o React?<br>&nbsp;</h2><p>O React é uma biblioteca JavaScript de código aberto mantida pelo Facebook e por uma comunidade ativa de desenvolvedores. Ele foi projetado para criar interfaces de usuário (UI) reutilizáveis e responsivas em aplicações web. A principal característica do React é a sua abordagem centrada em componentes, que permite dividir a UI em partes menores e reutilizáveis chamadas de \"componentes\".</p><p>&nbsp;</p><blockquote><p>O React é uma biblioteca JavaScript de código aberto mantida pelo Facebook e por uma comunidade ativa de desenvolvedores. Ele foi projetado para criar interfaces de usuário (UI) reutilizáveis e responsivas em aplicações web. A principal característica do React é a sua abordagem centrada em componentes, que permite dividir a UI em partes menores e reutilizáveis chamadas de \"componentes\".</p></blockquote><h2>Principais Conceitos do React:</h2><p>1. <strong>Componentes:</strong><br>&nbsp; Em React, tudo é um componente. Um componente é uma unidade autônoma que encapsula parte da interface do usuário. Por exemplo, você pode criar um componente de botão, um componente de cabeçalho ou até mesmo um componente de lista de tarefas.</p><pre><code class=\"language-typescript\">  \n  import React from 'react';\n  function Botao(props) {\n      return &lt;button&gt;{props.texto}&lt;/button&gt;;\n  }\n  // Uso do componente Botao\n  &lt;Botao texto=\"Clique em mim\" /&gt;\n  </code></pre><p>2. <strong>Estado (State) e Propriedades (Props):</strong><br>&nbsp; Os componentes podem ter estado (state) e receber propriedades (props). O estado é usado para armazenar dados que podem mudar ao longo do tempo, enquanto as props são usadas para passar dados de um componente pai para um componente filho.</p><pre><code class=\"language-typescript\">  \n  import React, { useState } from 'react';\n  function Contador() {\n      const [contador, setContador] = useState(0);\n      return (\n          &lt;div&gt;\n              &lt;p&gt;Contagem: {contador}&lt;/p&gt;\n              &lt;button onClick={() =&gt; setContador(contador + 1)}&gt;Incrementar&lt;/button&gt;\n          &lt;/div&gt;\n      );\n  }\n  </code></pre><p>3. <strong>Ciclo de Vida (Lifecycle):</strong><br>&nbsp; Os componentes React têm métodos de ciclo de vida que permitem realizar ações em diferentes momentos, como a montagem, atualização e desmontagem do componente. Esses métodos são úteis para gerenciar recursos e eventos.</p><pre><code class=\"language-typescript\">  \n  import React, { Component } from 'react';\n  class MeuComponente extends Component {\n      componentDidMount() {\n          console.log(\"Componente montado!\");\n      }\n      componentDidUpdate() {\n          console.log(\"Componente atualizado!\");\n      }\n      componentWillUnmount() {\n          console.log(\"Componente desmontado!\");\n      }\n      render() {\n          return &lt;p&gt;Meu Componente&lt;/p&gt;;\n      }\n  }\n  </code></pre><p>4. <strong>Roteamento (React Router):</strong><br>&nbsp; O React Router é uma biblioteca que permite criar aplicações de página única (SPA) com navegação baseada em rotas. Ele ajuda a criar URLs amigáveis e a gerenciar a navegação do usuário.</p><pre><code class=\"language-typescript\">  \n  import { BrowserRouter, Route, Link } from 'react-router-dom';\n  function App() {\n      return (\n          &lt;BrowserRouter&gt;\n              &lt;nav&gt;\n                  &lt;ul&gt;\n                      &lt;li&gt;\n                          &lt;Link to=\"/\"&gt;Página Inicial&lt;/Link&gt;\n                      &lt;/li&gt;\n                      &lt;li&gt;\n                          &lt;Link to=\"/sobre\"&gt;Sobre&lt;/Link&gt;\n                      &lt;/li&gt;\n                  &lt;/ul&gt;\n              &lt;/nav&gt;\n              &lt;Route path=\"/\" exact component={PaginaInicial} /&gt;\n              &lt;Route path=\"/sobre\" component={PaginaSobre} /&gt;\n          &lt;/BrowserRouter&gt;\n      );\n  }\n  </code></pre><h2>Vantagens do React:</h2><ul style=\"list-style-type:disc;\"><li>Reatividade: O React atualiza automaticamente a interface do usuário quando o estado (state) ou as props de um componente mudam.</li><li>Reutilização: A abordagem de componentes permite reutilizar e compartilhar código de forma eficiente.</li><li>Comunidade Ativa: O React possui uma comunidade robusta e uma grande quantidade de bibliotecas e recursos disponíveis.</li><li>SEO Amigável: O React pode ser renderizado no servidor para melhorar a otimização para mecanismos de busca.</li></ul><h2>Exemplos de Projetos React:<br>&nbsp;</h2><h3>Aqui estão alguns exemplos de projetos que você pode criar com React:</h3><p>1. <strong>Lista de Tarefas Interativa:</strong><br>&nbsp; Crie um aplicativo de lista de tarefas onde os usuários podem adicionar, remover e marcar tarefas como concluídas.</p><p>2. <strong>Blog Pessoal:</strong><br>&nbsp; Desenvolva um blog pessoal com React, onde os autores podem criar, editar e excluir postagens.</p><p>3. <strong>Aplicativo de Gerenciamento de Estado:</strong><br>&nbsp; Use o Redux (ou o Context API) para criar um aplicativo de gerenciamento de estado com compartilhamento de dados entre componentes.</p><p>4. <strong>Jogo de Memória:</strong><br>&nbsp; Crie um jogo de memória onde os jogadores devem combinar pares de cartas.</p><h2>Conclusão:<br>&nbsp;</h2><p>O React é uma ferramenta poderosa para o desenvolvimento de interfaces de usuário interativas e reativas. Com uma sólida compreensão dos conceitos fundamentais, como componentes, estado e ciclo de vida, você estará pronto para criar aplicativos web modernos e impressionantes. Continue praticando e explorando as possibilidades infinitas que o React oferece para se tornar um mestre na construção de interfaces de usuário com JavaScript.</p>",
+            "allowComments": true,
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Frontend",
+                    "slug": "frontend"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Web",
+                    "slug": "web"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "UseState",
+                    "slug": "use-state"
+                  }
+                }
+              ]
+            },
+            "categories": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Javascript",
+                    "slug": "javascript",
+                    "color": "#eab308"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "React",
+                    "slug": "react",
+                    "color": "#06b6d4"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Evandro Calado",
+                  "slug": "evandro-calado",
+                  "image": {
+                    "data": {
+                      "id": "1",
+                      "attributes": {
+                        "name": "110628201.jpeg",
+                        "alternativeText": null,
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/110628201_8f98b88d6a.jpg",
+                        "width": 460,
+                        "height": 460,
+                        "formats": {
+                          "thumbnail": {
+                            "ext": ".jpeg",
+                            "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/thumbnail_110628201_8f98b88d6a.jpg",
+                            "hash": "thumbnail_110628201_8f98b88d6a",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_110628201.jpeg",
+                            "path": null,
+                            "size": 5.96,
+                            "width": 156,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_110628201_8f98b88d6a",
+                              "resource_type": "image"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "createdAt": "2023-09-09T02:32:46.205Z",
+            "updatedAt": "2023-09-09T02:52:36.161Z",
+            "publishedAt": "2023-09-09T02:32:58.886Z"
+          }
+        },
+        {
+          "id": "1",
+          "attributes": {
+            "title": "Dominando o Mundo da Programação com JavaScript",
+            "slug": "dominando-o-mundo-da-programacao-com-java-script",
+            "excerpt": "JavaScript, frequentemente abreviado como JS, é uma linguagem de programação de alto nível que permite adicionar interatividade e funcionalidade a páginas web. É executado no navegador do cliente (front-end) e pode interagir com o HTML e o CSS para criar experiências ricas para o usuário.",
+            "cover": {
+              "data": [
+                {
+                  "attributes": {
+                    "name": "pexels-vidit-goel-12429032.jpg",
+                    "alternativeText": null,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/pexels_vidit_goel_12429032_16796deb17.jpg",
+                    "width": 1280,
+                    "height": 853,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/large_pexels_vidit_goel_12429032_16796deb17.jpg",
+                        "hash": "large_pexels_vidit_goel_12429032_16796deb17",
+                        "mime": "image/jpeg",
+                        "name": "large_pexels-vidit-goel-12429032.jpg",
+                        "path": null,
+                        "size": 236.81,
+                        "width": 1000,
+                        "height": 666,
+                        "provider_metadata": {
+                          "public_id": "large_pexels_vidit_goel_12429032_16796deb17",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/small_pexels_vidit_goel_12429032_16796deb17.jpg",
+                        "hash": "small_pexels_vidit_goel_12429032_16796deb17",
+                        "mime": "image/jpeg",
+                        "name": "small_pexels-vidit-goel-12429032.jpg",
+                        "path": null,
+                        "size": 61.79,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_pexels_vidit_goel_12429032_16796deb17",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/medium_pexels_vidit_goel_12429032_16796deb17.jpg",
+                        "hash": "medium_pexels_vidit_goel_12429032_16796deb17",
+                        "mime": "image/jpeg",
+                        "name": "medium_pexels-vidit-goel-12429032.jpg",
+                        "path": null,
+                        "size": 136.22,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_pexels_vidit_goel_12429032_16796deb17",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/thumbnail_pexels_vidit_goel_12429032_16796deb17.jpg",
+                        "hash": "thumbnail_pexels_vidit_goel_12429032_16796deb17",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_pexels-vidit-goel-12429032.jpg",
+                        "path": null,
+                        "size": 13.82,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_pexels_vidit_goel_12429032_16796deb17",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "content": "<h2>Dominando o Mundo da Programação com JavaScript</h2><p>&nbsp;</p><p><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript\">JavaScript</a> é uma linguagem de programação amplamente utilizada que desempenha um papel fundamental na criação de aplicativos web dinâmicos e interativos. Neste post, vamos mergulhar fundo no fascinante universo do JavaScript, explorando seus conceitos fundamentais, recursos avançados e fornecendo exemplos de código práticos. Se você é um iniciante curioso ou um desenvolvedor experiente, este guia abrangente sobre JavaScript irá ajudá-lo a aprimorar suas habilidades e se destacar no mundo da programação web.</p><h2>O que é JavaScript?</h2><p>&nbsp;</p><p>JavaScript, frequentemente abreviado como JS, é uma linguagem de programação de alto nível que permite adicionar interatividade e funcionalidade a páginas web. É executado no navegador do cliente (front-end) e pode interagir com o HTML e o CSS para criar experiências ricas para o usuário.</p><figure class=\"image image-style-side image_resized\" style=\"width:45.24%;\"><img src=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/pexels_vidit_goel_12429032_16796deb17.jpg\" alt=\"pexels-vidit-goel-12429032.jpg\" srcset=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/thumbnail_pexels_vidit_goel_12429032_16796deb17.jpg 234w,https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/small_pexels_vidit_goel_12429032_16796deb17.jpg 500w,https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/medium_pexels_vidit_goel_12429032_16796deb17.jpg 750w,https://res.cloudinary.com/dnhsdenji/image/upload/v1694225572/large_pexels_vidit_goel_12429032_16796deb17.jpg 1000w,\" sizes=\"100vw\"><figcaption>Javascript</figcaption></figure><h2>Principais Conceitos do JavaScript:</h2><p>1. <strong>Variáveis e Tipos de Dados:</strong><br>&nbsp; JavaScript é uma linguagem dinamicamente tipada, o que significa que você não precisa declarar explicitamente os tipos de dados das variáveis. Por exemplo:</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><pre><code class=\"language-javascript\">  let nome = \"João\";\n  let idade = 30;</code></pre><p>2. <strong>Funções:</strong><br>&nbsp; As funções são blocos de código reutilizável que executam tarefas específicas. Aqui está um exemplo simples:<br>&nbsp;&nbsp;</p><pre><code class=\"language-javascript\">function saudacao(nome) {\n      console.log(`Olá, ${nome}!`);\n  }\n  saudacao(\"Maria\");</code></pre><p>3. <strong>Estruturas de Controle:</strong><br>&nbsp; JavaScript oferece estruturas de controle como condicionais (if/else), loops (for, while) e switch/case para controlar o fluxo do programa.</p><pre><code class=\"language-javascript\">\n  let idade = 18;\n  if (idade &gt;= 18) {\n      console.log(\"Você é maior de idade.\");\n  } else {\n      console.log(\"Você é menor de idade.\");\n  }\n  </code></pre><p>4. <strong>Objetos e Classes:</strong><br>&nbsp; JavaScript suporta a criação de objetos e classes, permitindo a modelagem de dados e comportamentos complexos.</p><pre><code class=\"language-javascript\">  \n  class Pessoa {\n      constructor(nome, idade) {\n          this.nome = nome;\n          this.idade = idade;\n      }\n      apresentar() {\n          console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos.`);\n      }\n  }\n  const pessoa = new Pessoa(\"Carlos\", 25);\n  pessoa.apresentar();\n  </code></pre><p>5. <strong>Manipulação do DOM:</strong><br>&nbsp; JavaScript é usado para interagir com o Document Object Model (DOM) de uma página web, permitindo a atualização dinâmica do conteúdo e a resposta a eventos do usuário.</p><pre><code class=\"language-javascript\">  \n  // Alterar o texto de um elemento HTML\n  document.getElementById(\"meuElemento\").textContent = \"Novo Texto\";\n  // Adicionar um evento de clique\n  document.getElementById(\"meuBotao\").addEventListener(\"click\", function() {\n      alert(\"Botão clicado!\");\n  });\n  </code></pre><h2>Recursos Avançados de JavaScript:</h2><p>1. <strong>Promises e Async/Await:</strong><br>&nbsp; JavaScript oferece um mecanismo de assincronia poderoso para lidar com operações demoradas, como chamadas de API. O uso de Promises e Async/Await torna o código assíncrono mais legível e gerenciável.</p><pre><code class=\"language-javascript\">  \n  async function fetchData() {\n      try {\n          const response = await fetch(\"https://api.example.com/data\");\n          const data = await response.json();\n          console.log(data);\n      } catch (error) {\n          console.error(\"Erro ao buscar dados:\", error);\n      }\n  }\n  fetchData();\n  </code></pre><p>2. <strong>Manipulação de Arrays:</strong><br>&nbsp; JavaScript oferece uma variedade de métodos para trabalhar com arrays, como map(), filter(), reduce() e forEach(), tornando a manipulação de dados mais eficiente.</p><pre><code class=\"language-javascript\">  \n  const numeros = [1, 2, 3, 4, 5];\n  const dobrados = numeros.map(numero =&gt; numero * 2);\n  console.log(dobrados); // [2, 4, 6, 8, 10]\n  </code></pre><p>3. <strong>Módulos e Importações:</strong><br>&nbsp; JavaScript moderno suporta a criação de módulos, permitindo dividir o código em arquivos separados e importar/exportar funcionalidades entre eles.</p><pre><code class=\"language-javascript\">  \n  // Em um arquivo 'utils.js'\n  export function somar(a, b) {\n      return a + b;\n  }\n  // Em outro arquivo\n  import { somar } from './utils.js';\n  console.log(somar(3, 4)); // 7\n  </code></pre><h2>Conclusão:<br>&nbsp;</h2><p>JavaScript é uma linguagem versátil e poderosa que desempenha um papel vital no desenvolvimento web. Compreender os conceitos básicos, como variáveis, funções e objetos, e explorar recursos avançados, como Promises e módulos, abrirá um mundo de possibilidades na criação de aplicativos web dinâmicos e interativos. Continue aprendendo e explorando, e você estará bem encaminhado para se tornar um mestre da programação JavaScript.</p>",
+            "allowComments": true,
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Frontend",
+                    "slug": "frontend"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Web",
+                    "slug": "web"
+                  }
+                }
+              ]
+            },
+            "categories": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Javascript",
+                    "slug": "javascript",
+                    "color": "#eab308"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Evandro Calado",
+                  "slug": "evandro-calado",
+                  "image": {
+                    "data": {
+                      "id": "1",
+                      "attributes": {
+                        "name": "110628201.jpeg",
+                        "alternativeText": null,
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/110628201_8f98b88d6a.jpg",
+                        "width": 460,
+                        "height": 460,
+                        "formats": {
+                          "thumbnail": {
+                            "ext": ".jpeg",
+                            "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/thumbnail_110628201_8f98b88d6a.jpg",
+                            "hash": "thumbnail_110628201_8f98b88d6a",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_110628201.jpeg",
+                            "path": null,
+                            "size": 5.96,
+                            "width": 156,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_110628201_8f98b88d6a",
+                              "resource_type": "image"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "createdAt": "2023-09-09T02:23:41.072Z",
+            "updatedAt": "2023-09-09T02:50:45.122Z",
+            "publishedAt": "2023-09-09T02:23:53.676Z"
+          }
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "total": 4,
+          "page": 1,
+          "pageSize": 10,
+          "pageCount": 1
+        }
+      }
+    }
+  }
+}

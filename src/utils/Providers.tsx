@@ -3,7 +3,7 @@
 import isPropValid from '@emotion/is-prop-valid';
 import { StyleSheetManager, ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../styles/global-styles';
-import { darkTheme } from '../styles/theme';
+import { lightTheme } from '../styles/theme';
 
 interface IAuthProvider {
   children: React.ReactNode;
@@ -12,7 +12,7 @@ interface IAuthProvider {
 export default function Providers({ children }: IAuthProvider) {
   return (
     <StyleSheetManager shouldForwardProp={isPropValid}>
-      <ThemeProvider theme={darkTheme}>
+      <ThemeProvider theme={lightTheme}>
         <GlobalStyles />
         {children}
       </ThemeProvider>
