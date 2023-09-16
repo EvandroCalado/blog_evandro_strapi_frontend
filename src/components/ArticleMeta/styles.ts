@@ -6,7 +6,6 @@ export const Container = styled.div`
     width: 100%;
     max-width: ${theme.frameSizes['7xl']};
     margin: auto;
-    padding: 0 ${theme.spacings.md};
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,12 +31,13 @@ export const Container = styled.div`
 
 export const Image = styled.div`
   ${({ theme }) => css`
-    position: relative;
-    width: 100%;
-    height: 40rem;
-    object-fit: cover;
-    border-radius: ${theme.spacings.sm};
-    overflow: hidden;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: ${theme.spacings.sm};
+    }
   `}
 `;
 

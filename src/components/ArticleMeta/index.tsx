@@ -26,13 +26,12 @@ export default function ArticleMeta({
   content,
   createdAt,
 }: ArticleMetaProps) {
-  const { url, name } = cover.data[0].attributes;
-  console.log(content);
+  const { url, name, width, height } = cover.data[0].attributes;
 
   return (
     <Styled.Container>
       <Styled.Image>
-        <Image src={url} alt={name} fill />
+        <Image src={url} alt={name} width={width} height={height} />
       </Styled.Image>
       <span>
         Fonte:
