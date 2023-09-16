@@ -11,7 +11,7 @@ export default function Categories({ categories }: CategoriesProps) {
     <Styled.Container>
       {categories.data.map((category) => (
         <Link
-          href={`/categories/${category.attributes.slug}`}
+          href={`/category/${category.attributes.slug}`}
           key={category.attributes.slug}
           style={{ color: category.attributes.color }}
         >
