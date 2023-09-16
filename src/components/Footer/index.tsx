@@ -1,12 +1,15 @@
 import Link from 'next/link';
 import icons from '../../icons';
+import { Setting } from '../../types/strapi';
 import * as Styled from './styles';
 
 export interface FooterProps {
-  footer: string;
+  setting: Setting;
 }
 
-export default function Footer({ footer }: FooterProps) {
+export default function Footer({ setting }: FooterProps) {
+  const { footer } = setting.data.attributes;
+
   return (
     <Styled.Footer>
       <Styled.Socials>

@@ -1,11 +1,14 @@
 import { Meta, StoryFn } from '@storybook/react';
 import Footer, { FooterProps } from '.';
 
+import mock from '../../utils/db.json';
+const setting = mock.data.setting;
+
 export default {
   title: 'Components/Footer',
   component: Footer,
   args: {
-    footer: 'Evandro Calado',
+    setting,
   },
   parameters: {
     layout: 'fullscreen',
