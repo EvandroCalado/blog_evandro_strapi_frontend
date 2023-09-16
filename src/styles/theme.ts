@@ -2,12 +2,14 @@ export const lightTheme = {
   colors: {
     primary: '#020415',
     secondary: '#383fef',
+    secondaryHover: '#232ae1',
+    secondaryActive: '#00046c',
     warning: '#e11d48',
     success: '#16a34a',
     info: '#3b82f6',
     white: '#ffffff',
     black: '#000000',
-    background: 'linear-gradient(to bottom, #e5e5e5, #ffffff);',
+    background: '#e5e5e5',
     text: '#020415',
     neltral0: '#fafafa',
     neltral1: '#f5f5f5',
@@ -23,7 +25,7 @@ export const lightTheme = {
   },
   font: {
     family: {
-      primary: "'Oswald', sans-serif;",
+      primary: "'Oswald', sans-serif",
     },
     sizes: {
       xs: '.8rem',
@@ -103,12 +105,14 @@ export const darkTheme = {
   colors: {
     primary: '#020415',
     secondary: '#383fef',
+    secondaryHover: '#232ae1',
+    secondaryActive: '#00046c',
     warning: '#e11d48',
     success: '#16a34a',
     info: '#3b82f6',
-    white: '#ffffff',
+    white: '#020415',
     black: '#000000',
-    background: 'linear-gradient(to bottom, #020415, #081a36);',
+    background: '#020415',
     text: '#f5f5f5',
     neltral0: '#fafafa',
     neltral1: '#f5f5f5',
