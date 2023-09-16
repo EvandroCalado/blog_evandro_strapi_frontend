@@ -18,3 +18,7 @@ export default {
 export const Default: StoryFn<PostLatestProps> = (args) => (
   <PostLatest {...args} />
 );
+
+export const Reverse: StoryFn<PostLatestProps> = (args) => (
+  <PostLatest {...args} reverse />
+);

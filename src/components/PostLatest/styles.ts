@@ -1,15 +1,33 @@
 import styled, { css } from 'styled-components';
+import { PostLatestProps } from '.';
 
-export const Container = styled.div`
-  ${({ theme }) => css`
+export const Container = styled.div<Pick<PostLatestProps, 'reverse'>>`
+  ${({ theme, reverse }) => css`
     display: flex;
     align-items: center;
-    gap: ${theme.spacings['2xl']};
+    gap: ${theme.spacings.xl};
     padding: ${theme.spacings.lg} ${theme.spacings.md};
+    grid-column: 1 / 4;
+
+    ${
+      reverse &&
+      css`
+      flex-direction: row-reverse;
+    `
+    }
+
+    @media screen and ${theme.media.lteOrEqLarge} {
+      grid-column: 1 / 3;
+    }
+
+    @media screen and ${theme.media.lteOrEqMedium} {
+      flex-direction: column;
+      grid-column: 1 / 3;
+    }
 
     @media screen and ${theme.media.lteOrEqSmall} {
       flex-direction: column;
-      gap: ${theme.spacings.md};
+      grid-column: 1 / 2;
     }
 `}
 `;
@@ -19,25 +37,33 @@ export const ImageContainer = styled.div`
     position: relative;
     width: 100%;
     height: 35rem;
-    flex: 1;
 
     & img {
       object-fit: cover;
       border-radius: ${theme.spacings.sm};
     }
 
-    @media screen and ${theme.media.lteOrEqSmall} {
-      flex: none;
+    @media screen and ${theme.media.lteOrEqMedium} {
+      height: 30rem;
     }
 `}
 `;
 
 export const ContentContainer = styled.div`
   ${({ theme }) => css`
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: ${theme.spacings.lg};
-    flex: 1;
+
+    & > a {
+      transition: ${theme.transitions.faster};
+
+      &:hover {
+        text-decoration: underline;
+        filter: invert(.2);
+      }
+    }
 `}
 `;
 
