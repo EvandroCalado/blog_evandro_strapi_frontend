@@ -22,7 +22,7 @@ export default function PostCard({ post }: PostCardProps) {
         <Image src={formats.small.url} alt={formats.small.name} fill />
       </Styled.ImageContainer>
       <Styled.ContentContainer>
-        <Link href={`/posts/${post.attributes.slug}`}>
+        <Link href={`/post/${post.attributes.slug}`}>
           <Heading as="h2">{title}</Heading>
         </Link>
         <Categories categories={categories} />

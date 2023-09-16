@@ -6,7 +6,6 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: ${theme.spacings.xs};
     padding: ${theme.spacings.lg} ${theme.spacings.md};
 `}
 `;
@@ -16,6 +15,7 @@ export const ImageContainer = styled.div`
     position: relative;
     width: 100%;
     height: 20rem;
+    margin-bottom: ${theme.spacings.md};
 
     & img {
       object-fit: cover;
@@ -28,7 +28,7 @@ export const ContentContainer = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    gap: ${theme.spacings.lg};
+    gap: ${theme.spacings.md};
 
     & > a {
       transition: ${theme.transitions.faster};
@@ -38,7 +38,6 @@ export const ContentContainer = styled.div`
         filter: invert(.2);
       }
     }
-
 
     }
 
