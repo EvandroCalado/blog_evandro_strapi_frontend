@@ -11,7 +11,7 @@ export const HeaderContainer = styled.header`
     justify-content: center;
     flex-direction: column;
     gap: ${theme.spacings.xl};
-    padding: ${theme.spacings.md} ${theme.spacings.lg};
+    padding: ${theme.spacings.md};
 `}
 `;
 
@@ -26,19 +26,19 @@ export const NavContainer = styled.div`
     position: relative;
 
     & span {
+      display: none;
       cursor: pointer;
+
+      @media screen and ${theme.media.lteOrEqMedium} {
+        display: block;
+      }
     }
 
     & svg {
-    width: 3rem;
-    display: none;
-    position: relative;
-    z-index: 10;
-
-    @media screen and ${theme.media.lteOrEqMedium}{
-      display: block;
+      width: 3rem;
+      position: relative;
+      z-index: 10;
     }
-  }
 `}
 `;
 
@@ -78,12 +78,13 @@ export const Nav = styled.nav<Pick<HeaderProps, 'showMenu'>>`
     border-radius: ${theme.spacings.xs};
     border: 1px solid;
     position: absolute;
+    z-index: 10;
     top: 3rem;
     left: 0;
     right: 0;
     transition: ${theme.transitions.faster};
-    background-color: #00000010;
-    backdrop-filter: blur(10px);
+    background-color: ${theme.colors.background};
+    /* backdrop-filter: blur(10px); */
     opacity: 0;
     visibility: hidden;
 
