@@ -18,6 +18,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: ${({ theme }) => theme.font.family.primary};
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
+    transition: ${({ theme }) => theme.transitions.fast};
   }
 
   a {
