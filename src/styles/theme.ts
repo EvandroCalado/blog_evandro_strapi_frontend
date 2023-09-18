@@ -99,7 +99,7 @@ export const lightTheme = {
     layer9: 9,
     aboveAll: 10,
   },
-} as const;
+};
 
 export const darkTheme = {
   colors: {
@@ -202,4 +202,4 @@ export const darkTheme = {
     layer9: 9,
     aboveAll: 10,
   },
-} as const;
+};
