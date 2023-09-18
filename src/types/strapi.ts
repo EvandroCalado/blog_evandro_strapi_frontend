@@ -12,11 +12,11 @@ export interface Posts {
   meta: Meta;
 }
 
-interface Meta {
+export interface Meta {
   pagination: Pagination;
 }
 
-interface Pagination {
+export interface Pagination {
   total: number;
   page: number;
   pageSize: number;
