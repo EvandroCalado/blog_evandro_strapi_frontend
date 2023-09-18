@@ -17,9 +17,15 @@ interface TagPageProps {
   posts: StrapiPosts;
   setting: StrapiSetting;
   variables?: LoadPostsVariables;
+  route?: string;
 }
 
-export default function TagPage({ posts, setting, variables }: TagPageProps) {
+export default function TagPage({
+  posts,
+  setting,
+  variables,
+  route,
+}: TagPageProps) {
   const router = useRouter();
 
   if (router.isFallback) {
@@ -40,6 +46,7 @@ export default function TagPage({ posts, setting, variables }: TagPageProps) {
         setting={setting}
         gridTitle={tagName}
         variables={variables}
+        route={route}
       />
     </>
   );
@@ -76,6 +83,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
         ...defaultVariables,
         ...variables,
       },
+      route: 'tag',
     },
     revalidate: 60 * 60 * 24,
   };

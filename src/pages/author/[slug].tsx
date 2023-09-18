@@ -7,14 +7,25 @@ import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,
 } from '../../types/strapi';
-import { loadPosts } from '../../utils/load-posts';
+import {
+  LoadPostsVariables,
+  defaultVariables,
+  loadPosts,
+} from '../../utils/load-posts';
 
 interface AuthorPageProps {
   posts: StrapiPosts;
   setting: StrapiSetting;
+  variables?: LoadPostsVariables;
+  route?: string;
 }
 
-export default function AuthorPage({ posts, setting }: AuthorPageProps) {
+export default function AuthorPage({
+  posts,
+  setting,
+  variables,
+  route,
+}: AuthorPageProps) {
   const router = useRouter();
 
   if (router.isFallback) {
@@ -32,6 +43,8 @@ export default function AuthorPage({ posts, setting }: AuthorPageProps) {
         posts={posts}
         setting={setting}
         gridTitle={`Postagens Recentes de ${posts.data[0].attributes.author.data.attributes.displayName}`}
+        variables={variables}
+        route={route}
       />
     </>
   );
@@ -46,11 +59,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
   let data = null;
+  const variables = { authorSlug: ctx.params?.slug as string };
 
   try {
-    data = await loadPosts(QUERIES_GET_POSTS_BY_AUTHOR, {
-      authorSlug: ctx.params?.slug as string,
-    });
+    data = await loadPosts(QUERIES_GET_POSTS_BY_AUTHOR, variables);
   } catch (error) {
     data = null;
   }
@@ -65,6 +77,11 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     props: {
       posts: data.posts,
       setting: data.setting,
+      variables: {
+        ...defaultVariables,
+        ...variables,
+      },
+      route: 'author',
     },
     revalidate: 60 * 60 * 24,
   };
