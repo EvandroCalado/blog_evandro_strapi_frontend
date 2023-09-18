@@ -16,9 +16,10 @@ interface HomeProps {
   posts: StrapiPosts;
   setting: StrapiSetting;
   variables?: LoadPostsVariables;
+  route?: string;
 }
 
-export default function Home({ posts, setting, variables }: HomeProps) {
+export default function Home({ posts, setting, variables, route }: HomeProps) {
   return (
     <>
       <Head>
@@ -28,7 +29,12 @@ export default function Home({ posts, setting, variables }: HomeProps) {
           content={setting.data.attributes.blogDescription}
         />
       </Head>
-      <Posts posts={posts} setting={setting} variables={variables} />
+      <Posts
+        posts={posts}
+        setting={setting}
+        variables={variables}
+        route={route}
+      />
     </>
   );
 }
@@ -55,6 +61,7 @@ export const getStaticProps: GetStaticProps = async () => {
       variables: {
         ...defaultVariables,
       },
+      route: 'allPosts',
     },
     revalidate: 60 * 60 * 24,
   };
