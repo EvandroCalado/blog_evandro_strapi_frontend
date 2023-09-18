@@ -31,7 +31,13 @@ export default function ArticleMeta({
   return (
     <Styled.Container>
       <Styled.Image>
-        <Image src={url} alt={name} width={width} height={height} />
+        <Image
+          src={url}
+          alt={name}
+          width={width}
+          height={height}
+          priority={true}
+        />
       </Styled.Image>
       <span>
         Fonte:
