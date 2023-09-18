@@ -20,7 +20,7 @@ export interface LoadPostsVariables {
 export const defaultVariables: LoadPostsVariables = {
   sort: 'createdAt:desc',
   start: 0,
-  limit: 10,
+  limit: 2,
 };
 
 export const loadPosts = async (
