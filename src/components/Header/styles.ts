@@ -12,7 +12,7 @@ export const HeaderContainer = styled.header`
     flex-direction: column;
     gap: ${theme.spacings.xl};
     padding: ${theme.spacings.md};
-`}
+ `}
 `;
 
 export const NavContainer = styled.div`
@@ -25,7 +25,7 @@ export const NavContainer = styled.div`
     padding-bottom: ${theme.spacings.md};
     position: relative;
 
-    & span {
+    & > span {
       display: none;
       cursor: pointer;
 
@@ -34,7 +34,7 @@ export const NavContainer = styled.div`
       }
     }
 
-    & svg {
+    & span > svg {
       width: 3rem;
       position: relative;
       z-index: 10;
@@ -45,6 +45,8 @@ export const NavContainer = styled.div`
 export const Nav = styled.nav<Pick<HeaderProps, 'showMenu'>>`
   ${({ theme, showMenu }) => css`
   width: 100%;
+  display: flex;
+  align-items: center;
 
   & a {
     text-transform: uppercase;
@@ -108,7 +110,7 @@ export const Nav = styled.nav<Pick<HeaderProps, 'showMenu'>>`
 `}
 `;
 
-export const SearchContainer = styled.div`
+export const SearchContainer = styled.form`
     display: flex;
     align-items: center;
     position: relative;
@@ -124,7 +126,8 @@ export const Input = styled.input`
   ${({ theme }) => css`
     outline: none;
     border: none;
-    /* padding: ${theme.spacings.xs} 0; */
+    padding-right: ${theme.spacings.md};
+    padding-bottom: 0.2rem;
     background-color: transparent;
     color: ${theme.colors.text};
     font-size: 2rem;

@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 import icons from '../../icons';
 import { Setting } from '../../types/strapi';
 import BlogLogo from '../Logo';
+import Toggle from '../Toggle';
 import * as Styled from './styles';
 
 export interface HeaderProps {
@@ -12,6 +14,7 @@ export interface HeaderProps {
 
 export default function Header({ setting }: HeaderProps) {
   const [showMenu, setShowMenu] = useState(false);
+  const router = useRouter();
 
   const { menuLink } = setting.data.attributes;
 
@@ -31,9 +34,15 @@ export default function Header({ setting }: HeaderProps) {
               {link.text}
             </Link>
           ))}
+          <Toggle />
         </Styled.Nav>
-        <Styled.SearchContainer>
-          <Styled.Input placeholder="Pesquisar" />
+        <Styled.SearchContainer action="/search/" method="GET">
+          <Styled.Input
+            placeholder="Pesquisar"
+            type="search"
+            name="q"
+            defaultValue={router.query.q}
+          />
           {icons.search}
         </Styled.SearchContainer>
       </Styled.NavContainer>
