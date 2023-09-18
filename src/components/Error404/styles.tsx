@@ -8,6 +8,11 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     background: ${theme.colors.background};
+
+    & a {
+      font-size: 2rem;
+      text-decoration: underline;
+    }
   `}
 `;
 
@@ -29,5 +34,5 @@ export const Title = styled.h2`
 export const Title2 = styled.h2`
   font-size: 3rem;
   text-shadow: red -1px 0, cyan 1px 0;
-
+  margin-bottom: 3rem;
 `;
