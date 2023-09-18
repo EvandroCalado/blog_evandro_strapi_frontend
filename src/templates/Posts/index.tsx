@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import Button from '../../components/Button';
 import PostGrid from '../../components/PostGrid';
-import { QUERIES_GET_POSTS } from '../../graphql/queries';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,
 } from '../../types/strapi';
 import { LoadPostsVariables, loadPosts } from '../../utils/load-posts';
+import { paginationQueries } from '../../utils/pagination-queries';
 import Base from '../Base';
 import * as Styled from './styles';
 
@@ -15,6 +15,7 @@ export interface PostsProps {
   setting: StrapiSetting;
   gridTitle?: string;
   variables?: LoadPostsVariables;
+  route?: string;
 }
 
 export default function Posts({
@@ -22,6 +23,7 @@ export default function Posts({
   setting,
   gridTitle,
   variables,
+  route,
 }: PostsProps) {
   const [statePosts, setStatePosts] = useState(posts);
   const [stateVariables, setStateVariables] = useState(variables);
@@ -37,7 +39,10 @@ export default function Posts({
       limit: stateVariables!.limit,
     };
 
-    const morePosts = await loadPosts(QUERIES_GET_POSTS, newVariables);
+    const morePosts = await loadPosts(
+      paginationQueries[route! as keyof typeof paginationQueries],
+      newVariables,
+    );
 
     if (!morePosts || !morePosts.posts.data || !morePosts.posts.data.length) {
       setNoMorePosts(true);
@@ -58,9 +63,11 @@ export default function Posts({
     <Base setting={setting}>
       <PostGrid posts={statePosts} gridTitle={gridTitle} />
       <Styled.ButtonContainer>
-        <Button onClick={handleLoadMorePosts} disabled={buttonDisabled}>
-          {noMorePosts ? 'Sem mais posts' : 'Carregar mais'}
-        </Button>
+        {posts.data.length === 0 ? null : (
+          <Button onClick={handleLoadMorePosts} disabled={buttonDisabled}>
+            {noMorePosts ? 'Sem mais posts' : 'Carregar mais'}
+          </Button>
+        )}
       </Styled.ButtonContainer>
     </Base>
   );
