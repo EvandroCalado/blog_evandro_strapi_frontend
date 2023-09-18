@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 
     ${Title} {
-      font-size: ${theme.font.sizes['2xl']};
+      font-size: ${theme.font.sizes['4xl']};
 
       @media screen and ${theme.media.lteOrEqSmall} {
         font-size: ${theme.font.sizes.xl};
@@ -41,6 +41,13 @@ export const ImageContaner = styled.div`
       width: 20rem;
       height: 20rem;
     }
+`}
+`;
+
+export const Span = styled.span`
+  ${({ theme }) => css`
+    font-size: ${theme.font.sizes.md};
+    margin-top: ${theme.spacings.md};
 `}
 `;
 

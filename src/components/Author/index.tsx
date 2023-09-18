@@ -18,6 +18,9 @@ export default function Author({ author }: AuthorProps) {
           src={image.data.attributes.formats.thumbnail.url}
           alt={displayName}
           fill
+          sizes="(max-width: 768px) 100vw,
+          (max-width: 1200px) 50vw,
+          33vw"
         />
       </Styled.ImageContainer>
       <Styled.ContentContainer>

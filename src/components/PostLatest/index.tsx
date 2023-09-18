@@ -20,7 +20,15 @@ export default function PostLatest({ post, reverse }: PostLatestProps) {
   return (
     <Styled.Container reverse={reverse}>
       <Styled.ImageContainer>
-        <Image src={formats.small.url} alt={formats.small.name} fill />
+        <Image
+          src={formats.small.url}
+          alt={formats.small.name}
+          fill
+          sizes="(max-width: 768px) 100vw,
+          (max-width: 1200px) 50vw,
+          33vw"
+          priority={true}
+        />
       </Styled.ImageContainer>
       <Styled.ContentContainer>
         <Link href={`/post/${post.attributes.slug}`}>
