@@ -9,7 +9,7 @@ export const Container = styled.div`
     justify-content: center;
 
     @media screen and ${theme.media.lteOrEqSmall} {
-      height: 30rem;
+      height: 40rem;
     }
 `}
 `;
