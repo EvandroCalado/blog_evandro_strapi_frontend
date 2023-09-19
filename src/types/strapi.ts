@@ -72,7 +72,7 @@ interface Data3 {
 
 interface Attributes6 {
   name: string;
-  alternativeText?: string;
+  alternativeText?: string | null;
   url: string;
   width: number;
   height: number;
@@ -116,7 +116,7 @@ interface Datum {
 
 interface Attributes3 {
   name: string;
-  alternativeText?: string;
+  alternativeText?: string | null;
   url: string;
   width: number;
   height: number;
@@ -165,7 +165,7 @@ interface Data {
 
 interface Attributes {
   name: string;
-  alternativeText?: string;
+  alternativeText?: string | null;
   width: number;
   url: string;
   formats: Formats;
@@ -181,7 +181,7 @@ interface Thumbnail {
   hash: string;
   mime: string;
   name: string;
-  path?: string;
+  path?: string | null;
   size: number;
   width: number;
   height: number;
