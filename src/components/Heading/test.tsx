@@ -18,4 +18,17 @@ describe('<Heading />', () => {
       'uppercase',
     );
   });
+
+  it('should render with as value', () => {
+    const { container } = renderTheme(<Heading as="h2">test</Heading>);
+
+    expect(screen.getByRole('heading', { name: 'test' })).toBeInTheDocument();
+    const h2 = container.querySelector('h2');
+    expect(h2?.tagName.toLocaleLowerCase()).toBe('h2');
+  });
+
+  it('should render a snapshot', () => {
+    const { container } = renderTheme(<Heading as="h2">test</Heading>);
+    expect(container).toMatchSnapshot();
+  });
 });

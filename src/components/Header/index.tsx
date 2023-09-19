@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import icons from '../../icons';
 import { Setting } from '../../types/strapi';
-import BlogLogo from '../Logo';
+import BlogLogo from '../BlogLogo';
 import Toggle from '../Toggle';
 import * as Styled from './styles';
 
@@ -23,9 +23,13 @@ export default function Header({ setting }: HeaderProps) {
       {<BlogLogo setting={setting} />}
       <Styled.NavContainer>
         {showMenu ? (
-          <span onClick={() => setShowMenu(!showMenu)}>{icons.x}</span>
+          <span onClick={() => setShowMenu(!showMenu)} data-testid="close">
+            {icons.x}
+          </span>
         ) : (
-          <span onClick={() => setShowMenu(!showMenu)}>{icons.menu}</span>
+          <span onClick={() => setShowMenu(!showMenu)} data-testid="menu">
+            {icons.menu}
+          </span>
         )}
 
         <Styled.Nav showMenu={showMenu}>
