@@ -18,14 +18,16 @@ export default function PostCard({ post }: PostCardProps) {
 
   return (
     <Styled.Container>
-      <Styled.ImageContainer>
-        <Image
-          src={formats.small.url}
-          alt={formats.small.name}
-          fill
-          sizes="320px"
-        />
-      </Styled.ImageContainer>
+      <Link href={`/post/${post.attributes.slug}`}>
+        <Styled.ImageContainer>
+          <Image
+            src={formats.small.url}
+            alt={formats.small.name}
+            fill
+            sizes="320px"
+          />
+        </Styled.ImageContainer>
+      </Link>
       <Styled.ContentContainer>
         <Link href={`/post/${post.attributes.slug}`}>
           <Heading as="h2">{title}</Heading>

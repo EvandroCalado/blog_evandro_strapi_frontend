@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Cover, Categories as StrapiCategories } from '../../types/strapi';
+import { Post as StrapiPost } from '../../types/strapi';
 import { formatDate } from '../../utils/format-date';
 import Categories from '../Categories';
 import Heading from '../Heading';
@@ -8,40 +8,31 @@ import ReadingTime from '../ReadingTime';
 import * as Styled from './styles';
 
 export interface ArticleMetaProps {
-  categories: StrapiCategories;
-  cover: Cover;
-  coverResource: string;
-  coverResourceUrl: string;
-  title: string;
-  content: string;
-  createdAt: string;
+  post: StrapiPost;
 }
 
-export default function ArticleMeta({
-  categories,
-  cover,
-  coverResource,
-  coverResourceUrl,
-  title,
-  content,
-  createdAt,
-}: ArticleMetaProps) {
-  const { url, name, width, height } = cover.data[0].attributes;
+export default function ArticleMeta({ post }: ArticleMetaProps) {
+  const {
+    title,
+    cover,
+    coverResource,
+    coverResourceUrl,
+    categories,
+    content,
+    createdAt,
+  } = post.attributes;
+  const { url, name } = cover.data[0].attributes.formats.medium;
 
   return (
     <Styled.Container>
       <Styled.Image>
-        <Image
-          src={url}
-          alt={name}
-          width={width}
-          height={height}
-          priority={true}
-        />
+        <Image src={url} alt={name} fill priority={true} />
       </Styled.Image>
       <span>
         Fonte:
-        <Link href={coverResourceUrl}>{coverResource}</Link>
+        <Link href={coverResourceUrl} target="_blank">
+          {coverResource}
+        </Link>
       </span>
       <Heading>{title}</Heading>
       <Styled.ArticleContainer>

@@ -9,6 +9,11 @@ export const Container = styled.div<Pick<PostLatestProps, 'reverse'>>`
     padding: ${theme.spacings.lg} ${theme.spacings.md};
     grid-column: 1 / 4;
 
+    & > a {
+      width: 100%;
+      height: 35rem;
+    }
+
     ${
       reverse &&
       css`
@@ -36,7 +41,7 @@ export const ImageContainer = styled.div`
   ${({ theme }) => css`
     position: relative;
     width: 100%;
-    height: 35rem;
+    height: 100%;
 
     & img {
       object-fit: cover;

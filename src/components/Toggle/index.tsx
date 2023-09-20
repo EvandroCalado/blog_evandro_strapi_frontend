@@ -7,20 +7,18 @@ export default function Toggle() {
   const { isDarkMode, setIsDarkMode } = useContext(BlogThemeContext);
 
   useEffect(() => {
-    if (isDarkMode) {
-      localStorage.setItem('theme', 'dark');
-    } else {
-      setIsDarkMode(false);
-      localStorage.setItem('theme', 'light');
-    }
+    const theme = isDarkMode ? 'dark' : 'light';
+    localStorage.setItem('theme', theme);
   }, [isDarkMode, setIsDarkMode]);
+
+  const handleClick = () => {
+    setIsDarkMode(localStorage.theme === 'light');
+  };
 
   return (
     <Styled.Label>
       <Styled.Input type="checkbox" />
-      <Styled.Span
-        onClick={() => setIsDarkMode(localStorage.theme === 'light')}
-      />
+      <Styled.Span onClick={handleClick} />
       {icons.light}
       {icons.dark}
     </Styled.Label>
