@@ -9,4 +9,9 @@ describe('<LinkButton />', () => {
     expect(screen.getByRole('link')).toBeInTheDocument();
     expect(screen.getByRole('link')).toHaveAttribute('href', '/');
   });
+
+  it('should render a snapshot', () => {
+    const { container } = renderTheme(<LinkButton href="/">test</LinkButton>);
+    expect(container).toMatchSnapshot();
+  });
 });
