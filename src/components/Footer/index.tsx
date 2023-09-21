@@ -8,16 +8,19 @@ const footerData = [
     id: 432,
     link: 'https://github.com/EvandroCalado',
     icon: icons.github,
+    testId: 'github',
   },
   {
     id: 433,
     link: 'https://www.linkedin.com/in/evandro-calado',
     icon: icons.linkedin,
+    testId: 'linkedin',
   },
   {
-    id: 432,
+    id: 434,
     link: 'https://www.instagram.com/dev_evandro',
     icon: icons.instagram,
+    testId: 'instagram',
   },
 ];
 
@@ -32,7 +35,12 @@ export default function Footer({ setting }: FooterProps) {
     <Styled.Footer>
       <Styled.Socials>
         {footerData.map((item) => (
-          <Link key={item.id} href={item.link} target="_blank">
+          <Link
+            key={item.id}
+            href={item.link}
+            target="_blank"
+            data-testid={item.testId}
+          >
             {item.icon}
           </Link>
         ))}
