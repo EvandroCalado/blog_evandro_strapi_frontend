@@ -1,39 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostLatest /> should render a snapshot 1`] = `
-.c4 a {
-  font-weight: 600;
-  transition: all 200ms ease-in-out;
-  margin-right: 1rem;
-}
-
-.c4 a:hover {
-  filter: brightness(1.4);
-}
-
-.c4 a::before {
-  content: '#';
-}
-
-.c4 a:not(:last-of-type)::after {
-  content: ',';
-}
-
 .c3 {
   text-transform: none;
 }
 
-.c7 {
+.c6 {
   display: flex;
   align-content: center;
   gap: 1rem;
 }
 
-.c7 svg {
+.c6 svg {
   width: 2rem;
 }
 
-.c8 {
+.c7 {
   display: flex;
   align-items: end;
   font-weight: 600;
@@ -79,7 +61,7 @@ exports[`<PostLatest /> should render a snapshot 1`] = `
   filter: invert(.2);
 }
 
-.c5 {
+.c4 {
   margin: 3rem 0;
   overflow: hidden;
   display: -webkit-box;
@@ -87,7 +69,7 @@ exports[`<PostLatest /> should render a snapshot 1`] = `
   -webkit-line-clamp: 5;
 }
 
-.c6 {
+.c5 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -120,14 +102,14 @@ exports[`<PostLatest /> should render a snapshot 1`] = `
 }
 
 @media screen and (max-width: 768px) {
-  .c5 {
+  .c4 {
     margin: 1rem 0;
     -webkit-line-clamp: 4;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .c5 {
+  .c4 {
     margin: 1rem 0;
     -webkit-line-clamp: 3;
   }
@@ -167,35 +149,19 @@ exports[`<PostLatest /> should render a snapshot 1`] = `
           Desenvolvimento de APIs e CMS Flexíveis e Eficient
         </h2>
       </a>
-      <div
-        class="c4"
-      >
-        <a
-          href="/category/strapi"
-          style="color: rgb(30, 58, 138);"
-        >
-          Strapi
-        </a>
-        <a
-          href="/category/node"
-          style="color: rgb(16, 185, 129);"
-        >
-          Node
-        </a>
-      </div>
       <p
-        class="c5"
+        class="c4"
       >
         Strapi é um sistema de gerenciamento de conteúdo (CMS) e framework de desenvolvimento de APIs de código aberto. Ele oferece uma interface amigável para criar e gerenciar conteúdo, além de permitir que os desenvolvedores criem APIs personalizadas para suas aplicações.
       </p>
       <div
-        class="c6"
+        class="c5"
       >
         <div
-          class="c7"
+          class="c6"
         >
           <span
-            class="c8"
+            class="c7"
           >
             <svg
               class="icon icon-tabler icon-tabler-clock-filled"
@@ -220,7 +186,7 @@ exports[`<PostLatest /> should render a snapshot 1`] = `
             </svg>
           </span>
           <span
-            class="c8"
+            class="c7"
           >
             3 minutos de leitura
           </span>
