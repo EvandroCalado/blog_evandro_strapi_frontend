@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Post as StrapiPost } from '../../types/strapi';
 import { formatDate } from '../../utils/format-date';
-import Categories from '../Categories';
 import Heading from '../Heading';
 import ReadingTime from '../ReadingTime';
 import * as Styled from './styles';
@@ -12,8 +11,7 @@ export interface PostCardProps {
 }
 
 export default function PostCard({ post }: PostCardProps) {
-  const { cover, excerpt, title, categories, content, createdAt } =
-    post.attributes;
+  const { cover, excerpt, title, content, createdAt } = post.attributes;
   const { formats } = cover.data[0].attributes;
 
   return (
@@ -32,7 +30,6 @@ export default function PostCard({ post }: PostCardProps) {
         <Link href={`/post/${post.attributes.slug}`}>
           <Heading as="h2">{title}</Heading>
         </Link>
-        <Categories categories={categories} />
         <Styled.Content>{excerpt}</Styled.Content>
         <Styled.DateContainer>
           <ReadingTime content={content} />
