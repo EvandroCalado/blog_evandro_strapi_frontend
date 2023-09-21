@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Categories /> should render a snapshot 1`] = `
+.c0 a {
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+  margin-right: 1rem;
+}
+
+.c0 a:hover {
+  filter: brightness(1.4);
+}
+
+.c0 a::before {
+  content: '#';
+}
+
+.c0 a:not(:last-of-type)::after {
+  content: ',';
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <a
+      href="/category/strapi"
+      style="color: rgb(30, 58, 138);"
+    >
+      Strapi
+    </a>
+    <a
+      href="/category/node"
+      style="color: rgb(16, 185, 129);"
+    >
+      Node
+    </a>
+  </div>
+</div>
+`;

@@ -1,12 +1,15 @@
 import { Meta, StoryFn } from '@storybook/react';
 import BlogLogo, { BlogLogoProps } from '.';
 
-import mock from './mock';
+import mock from '../../utils/db.json';
+const setting = mock.data.setting;
 
 export default {
   title: 'Components/BlogLogo',
   component: BlogLogo,
-  args: mock,
+  args: {
+    setting,
+  },
 } as Meta;
 
 export const Default: StoryFn<BlogLogoProps> = (args) => <BlogLogo {...args} />;

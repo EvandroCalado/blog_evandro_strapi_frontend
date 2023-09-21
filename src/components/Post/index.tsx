@@ -14,7 +14,7 @@ export interface PostProps {
 export default function Post({ post }: PostProps) {
   return (
     <Styled.Article>
-      <ArticleMeta {...post.attributes} />
+      <ArticleMeta post={post} />
       <HtmlContent html={post.attributes.content} />
       <Tags tags={post.attributes.tags} />
       <Author author={post.attributes.author} />

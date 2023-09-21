@@ -10,6 +10,7 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
     gap: ${theme.spacings.xl};
+    padding: 0 ${theme.spacings.md};
 
     & > span > a {
       font-weight: bold;
@@ -31,12 +32,25 @@ export const Container = styled.div`
 
 export const Image = styled.div`
   ${({ theme }) => css`
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    border-radius: ${theme.spacings.sm};
+    overflow: hidden;
+
+    @media screen and ${theme.media.lteOrEqMedium} {
+      height: 40rem;
+    }
+
+    @media screen and ${theme.media.lteOrEqSmall} {
+      height: 30rem;
+    }
 
     & img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: ${theme.spacings.sm};
+
     }
   `}
 `;

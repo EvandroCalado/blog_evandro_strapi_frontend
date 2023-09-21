@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tags /> should render a snapshot 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.c0 span {
+  font-style: italic;
+  margin-right: 1rem;
+}
+
+.c0 a {
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+  margin-right: 1rem;
+}
+
+.c0 a:hover {
+  filter: invert(.3);
+}
+
+.c0 a::before {
+  content: '#';
+}
+
+.c0 a:not(:last-of-type)::after {
+  content: ',';
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <span>
+      Tags: 
+    </span>
+    <a
+      href="/tag/api"
+    >
+      Api
+    </a>
+    <a
+      href="/tag/backend"
+    >
+      Backend
+    </a>
+  </div>
+</div>
+`;

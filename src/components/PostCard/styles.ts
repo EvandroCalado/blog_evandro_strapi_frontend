@@ -7,6 +7,12 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
     padding: ${theme.spacings.lg} ${theme.spacings.md};
+
+    & > a {
+      width: 100%;
+      height: 20rem;
+      margin-bottom: ${theme.spacings.md};
+    }
 `}
 `;
 
@@ -14,7 +20,7 @@ export const ImageContainer = styled.div`
   ${({ theme }) => css`
     position: relative;
     width: 100%;
-    height: 20rem;
+    height: 100%;
     margin-bottom: ${theme.spacings.md};
 
     & img {

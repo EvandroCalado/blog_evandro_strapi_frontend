@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AuthorPerfil /> should render a snapshot 1`] = `
+.c4 {
+  text-transform: none;
+}
+
+.c0 {
+  width: 100%;
+  max-width: 80rem;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.c0 .c3 {
+  font-size: 6.4rem;
+}
+
+.c1 {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.c2 {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+@media screen and (max-width: 576px) {
+  .c0 .c3 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .c1 {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .c1 {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .c5 {
+    font-size: 16px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="110628201.jpeg"
+        data-nimg="fill"
+        decoding="async"
+        fetchpriority="high"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        src="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2F110628201_8f98b88d6a.jpg&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+    </div>
+    <span
+      class="c2"
+    >
+      Postagens: 
+      4
+    </span>
+    <h1
+      class="c3 c4"
+    >
+      Evandro Calado
+    </h1>
+    <p
+      class="c5"
+    >
+      🚀 Desenvolvedor Frontend em constante busca por novos horizontes e desafios digitais. Meu dia a dia é uma jornada empolgante de aprendizado contínuo, onde o código é a minha tela em branco e a web é o meu playground criativo. Além de mergulhar nas linhas de código, sou abençoado por ser pai de uma menininha incrível, que me inspira a ser o meu melhor a cada dia. E quando não estou transformando ideias em experiências digitais, você pode me encontrar dando vida a ilustrações e rabiscos. Vem comigo nesta aventura em busca da excelência na criação digital !  ✨👨‍💻👨‍🎨
+    </p>
+  </div>
+</div>
+`;
