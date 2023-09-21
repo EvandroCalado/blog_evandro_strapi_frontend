@@ -1,15 +1,11 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
+
+const headerHeight = 193;
+const footerHeight = 200;
 
 export const Container = styled.div`
-  ${({ theme }) => css`
-    width: 100%;
+    height: calc(100vh - ${headerHeight}px - ${footerHeight}px);
     display: flex;
-    height: 54.6rem;
     align-items: center;
     justify-content: center;
-
-    @media screen and ${theme.media.lteOrEqSmall} {
-      height: 40rem;
-    }
-`}
 `;
