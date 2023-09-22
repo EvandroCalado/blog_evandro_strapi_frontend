@@ -1,15 +1,15 @@
 import { GetStaticProps } from 'next';
 import ComingSoon from '../../components/ComingSoon';
 import { QUERIES_GET_POSTS } from '../../graphql/queries';
-import Base from '../../templates/Base';
+import Base from '../../templates/BaseTemplate';
 import { Setting } from '../../types/strapi';
 import { loadPosts } from '../../utils/load-posts';
 
-interface ContactProps {
+interface ContactPageProps {
   setting: Setting;
 }
 
-export default function Contact({ setting }: ContactProps) {
+export default function ContactPage({ setting }: ContactPageProps) {
   return (
     <Base setting={setting}>
       <ComingSoon />

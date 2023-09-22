@@ -5,7 +5,7 @@ import {
   QUERIES_GET_POSTS,
   QUERIES_GET_POSTS_BY_SLUG,
 } from '../../graphql/queries';
-import Posting from '../../templates/Posting';
+import PostTamplate from '../../templates/PostTamplate';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,
@@ -30,7 +30,7 @@ export default function PostPage({ posts, setting }: PostPageProps) {
         <title>{posts.data[0].attributes.title}</title>
         <meta name="description" content={posts.data[0].attributes.excerpt} />
       </Head>
-      <Posting post={posts.data[0]} setting={setting} />
+      <PostTamplate post={posts.data[0]} setting={setting} />
     </>
   );
 }

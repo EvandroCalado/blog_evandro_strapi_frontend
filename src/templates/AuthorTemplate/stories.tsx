@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import AuthorPosts, { AuthorPostsProps } from '.';
+import AuthorTemplate, { AuthorTemplateProps } from '.';
 
 import mock from '../../utils/db.json';
 const posts = mock.data.posts;
@@ -7,8 +7,8 @@ const setting = mock.data.setting;
 const gridTitle = 'Postagens Recentes de Evandro Calado';
 
 export default {
-  title: 'Templates/AuthorPosts',
-  component: AuthorPosts,
+  title: 'Templates/AuthorTemplate',
+  component: AuthorTemplate,
   args: {
     posts,
     setting,
@@ -19,6 +19,6 @@ export default {
   },
 } as Meta;
 
-export const Default: StoryFn<AuthorPostsProps> = (args) => (
-  <AuthorPosts {...args} />
+export const Default: StoryFn<AuthorTemplateProps> = (args) => (
+  <AuthorTemplate {...args} />
 );

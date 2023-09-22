@@ -7,10 +7,10 @@ import {
 } from '../../types/strapi';
 import { LoadPostsVariables, loadPosts } from '../../utils/load-posts';
 import { paginationQueries } from '../../utils/pagination-queries';
-import Base from '../Base';
+import Base from '../BaseTemplate';
 import * as Styled from './styles';
 
-export interface PostsProps {
+export interface PostsTemplateProps {
   posts: StrapiPosts;
   setting: StrapiSetting;
   gridTitle?: string;
@@ -18,13 +18,13 @@ export interface PostsProps {
   route?: string;
 }
 
-export default function Posts({
+export default function PostsTemplate({
   posts,
   setting,
   gridTitle,
   variables,
   route,
-}: PostsProps) {
+}: PostsTemplateProps) {
   const [statePosts, setStatePosts] = useState(posts);
   const [stateVariables, setStateVariables] = useState(variables);
   const [buttonDisabled, setButtonDisabled] = useState(false);

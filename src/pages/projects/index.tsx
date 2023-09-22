@@ -1,15 +1,15 @@
 import { GetStaticProps } from 'next';
 import ComingSoon from '../../components/ComingSoon';
 import { QUERIES_GET_POSTS } from '../../graphql/queries';
-import Base from '../../templates/Base';
+import Base from '../../templates/BaseTemplate';
 import { Setting } from '../../types/strapi';
 import { loadPosts } from '../../utils/load-posts';
 
-interface ProjectsProps {
+interface ProjectsPageProps {
   setting: Setting;
 }
 
-export default function Projects({ setting }: ProjectsProps) {
+export default function ProjectsPage({ setting }: ProjectsPageProps) {
   return (
     <Base setting={setting}>
       <ComingSoon />

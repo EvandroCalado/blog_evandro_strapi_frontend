@@ -8,10 +8,10 @@ import {
 } from '../../types/strapi';
 import { LoadPostsVariables, loadPosts } from '../../utils/load-posts';
 import { paginationQueries } from '../../utils/pagination-queries';
-import Base from '../Base';
+import Base from '../BaseTemplate';
 import * as Styled from './styles';
 
-export interface AuthorPostsProps {
+export interface AuthorTemplateProps {
   posts: StrapiPosts;
   setting: StrapiSetting;
   gridTitle?: string;
@@ -19,13 +19,13 @@ export interface AuthorPostsProps {
   route?: string;
 }
 
-export default function AuthorPosts({
+export default function AuthorTemplate({
   posts,
   setting,
   gridTitle,
   variables,
   route,
-}: AuthorPostsProps) {
+}: AuthorTemplateProps) {
   const [statePosts, setStatePosts] = useState(posts);
   const [stateVariables, setStateVariables] = useState(variables);
   const [buttonDisabled, setButtonDisabled] = useState(false);
