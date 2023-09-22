@@ -2,7 +2,6 @@ import { Post as StrapiPost } from '../../types/strapi';
 import ArticleMeta from '../ArticleMeta';
 import Author from '../Author';
 import Comments from '../Comments';
-import GoToTop from '../GoToTop';
 import HtmlContent from '../HtmlContent';
 import Tags from '../Tags';
 import * as Styled from './styles';
@@ -24,7 +23,6 @@ export default function Post({ post }: PostProps) {
         title={post.attributes.title}
         allowComments={post.attributes.allowComments}
       />
-      <GoToTop />
     </Styled.Article>
   );
 }
