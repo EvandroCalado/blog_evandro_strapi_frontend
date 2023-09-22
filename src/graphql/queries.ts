@@ -235,3 +235,41 @@ export const QUERIES_GET_POSTS_BY_TITLE = gql`
   }
 }
 `;
+
+export const QUERIES_GET_ABOUT = gql`
+  query GET_ABOUT {
+  abouts {
+    data {
+      attributes {
+        title
+        description
+        image {
+          data {
+            attributes {
+              name
+              alternativeText
+              width
+              height
+              url
+              formats
+            }
+          }
+        }
+        hobby
+        imageHobby {
+          data {
+            attributes {
+              name
+              alternativeText
+              width
+              height
+              url
+              formats
+            }
+          }
+        }
+      }
+    }
+  }
+}
+`;
