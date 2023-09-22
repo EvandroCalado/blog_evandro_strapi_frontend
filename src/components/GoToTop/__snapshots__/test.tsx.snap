@@ -5,17 +5,16 @@ exports[`<GoToTop /> should render a snapshot 1`] = `
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: #383fef;
   outline: none;
   border: none;
   cursor: pointer;
   border-radius: 0.5rem;
   transition: bounce .2s ease-in-out,border 200ms ease-in-out;
   animation: bounce 2s ease-in-out infinite;
-  position: sticky;
+  position: fixed;
   right: 2rem;
   bottom: 2rem;
-  margin-left: auto;
 }
 
 .c0 svg {
