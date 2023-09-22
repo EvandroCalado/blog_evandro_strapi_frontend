@@ -1,0 +1,331 @@
+{
+  "data": {
+    "abouts": {
+      "data": [
+        {
+          "attributes": {
+            "title": "Sobre mim",
+            "description": "Olá, sou um entusiasta do desenvolvimento front-end, dedicado a dar vida a experiências digitais que são uma fusão de beleza, funcionalidade e acessibilidade. Para mim, a jornada diária é uma emocionante viagem de aprendizado contínuo, onde o código é minha tela em branco e a vasta web é meu playground criativo.\n\nMinha maior bênção na vida é ser pai de uma incrível menininha que me inspira a superar meus limites a cada novo amanhecer. Ela é minha fonte inesgotável de motivação para me tornar a melhor versão de mim mesmo, tanto profissional quanto pessoalmente.",
+            "image": {
+              "data": {
+                "attributes": {
+                  "name": "110628201.jpeg",
+                  "alternativeText": null,
+                  "width": 460,
+                  "height": 460,
+                  "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/110628201_8f98b88d6a.jpg",
+                  "formats": {
+                    "thumbnail": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1694217416/thumbnail_110628201_8f98b88d6a.jpg",
+                      "hash": "thumbnail_110628201_8f98b88d6a",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_110628201.jpeg",
+                      "path": null,
+                      "size": 5.96,
+                      "width": 156,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_110628201_8f98b88d6a",
+                        "resource_type": "image"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "hobby": "Quando não estou imerso em transformar ideias em experiências digitais, você provavelmente me encontrará envolto em um mundo de ilustrações e rabiscos. Essa é minha válvula de escape criativa, onde as cores e formas fluem livremente, permitindo que minha mente explore novos horizontes.\n\nConvido você a se juntar a mim nesta emocionante aventura em busca da excelência na criação digital. Juntos, podemos desvendar os mistérios do design e do desenvolvimento, explorando as infinitas possibilidades que o mundo digital oferece. Vamos criar algo incrível e deixar nossa marca na vastidão da internet! ",
+            "imageHobby": {
+              "data": [
+                {
+                  "attributes": {
+                    "name": "07.jpg",
+                    "alternativeText": null,
+                    "width": 1836,
+                    "height": 2601,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/07_6b015e0ba1.jpg",
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/large_07_6b015e0ba1.jpg",
+                        "hash": "large_07_6b015e0ba1",
+                        "mime": "image/jpeg",
+                        "name": "large_07.jpg",
+                        "path": null,
+                        "size": 82.68,
+                        "width": 706,
+                        "height": 1000,
+                        "provider_metadata": {
+                          "public_id": "large_07_6b015e0ba1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/small_07_6b015e0ba1.jpg",
+                        "hash": "small_07_6b015e0ba1",
+                        "mime": "image/jpeg",
+                        "name": "small_07.jpg",
+                        "path": null,
+                        "size": 24.36,
+                        "width": 353,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "small_07_6b015e0ba1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/medium_07_6b015e0ba1.jpg",
+                        "hash": "medium_07_6b015e0ba1",
+                        "mime": "image/jpeg",
+                        "name": "medium_07.jpg",
+                        "path": null,
+                        "size": 50.34,
+                        "width": 530,
+                        "height": 750,
+                        "provider_metadata": {
+                          "public_id": "medium_07_6b015e0ba1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/thumbnail_07_6b015e0ba1.jpg",
+                        "hash": "thumbnail_07_6b015e0ba1",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_07.jpg",
+                        "path": null,
+                        "size": 3.09,
+                        "width": 110,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_07_6b015e0ba1",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "name": "08.jpg",
+                    "alternativeText": null,
+                    "width": 1836,
+                    "height": 2629,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/08_b2ba5cbee0.jpg",
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/large_08_b2ba5cbee0.jpg",
+                        "hash": "large_08_b2ba5cbee0",
+                        "mime": "image/jpeg",
+                        "name": "large_08.jpg",
+                        "path": null,
+                        "size": 95.86,
+                        "width": 698,
+                        "height": 1000,
+                        "provider_metadata": {
+                          "public_id": "large_08_b2ba5cbee0",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/small_08_b2ba5cbee0.jpg",
+                        "hash": "small_08_b2ba5cbee0",
+                        "mime": "image/jpeg",
+                        "name": "small_08.jpg",
+                        "path": null,
+                        "size": 26.77,
+                        "width": 349,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "small_08_b2ba5cbee0",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/medium_08_b2ba5cbee0.jpg",
+                        "hash": "medium_08_b2ba5cbee0",
+                        "mime": "image/jpeg",
+                        "name": "medium_08.jpg",
+                        "path": null,
+                        "size": 55.89,
+                        "width": 524,
+                        "height": 750,
+                        "provider_metadata": {
+                          "public_id": "medium_08_b2ba5cbee0",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/thumbnail_08_b2ba5cbee0.jpg",
+                        "hash": "thumbnail_08_b2ba5cbee0",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_08.jpg",
+                        "path": null,
+                        "size": 3.51,
+                        "width": 109,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_08_b2ba5cbee0",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "name": "02.jpg",
+                    "alternativeText": null,
+                    "width": 1836,
+                    "height": 2656,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/02_4251096478.jpg",
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/large_02_4251096478.jpg",
+                        "hash": "large_02_4251096478",
+                        "mime": "image/jpeg",
+                        "name": "large_02.jpg",
+                        "path": null,
+                        "size": 106.25,
+                        "width": 691,
+                        "height": 1000,
+                        "provider_metadata": {
+                          "public_id": "large_02_4251096478",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/small_02_4251096478.jpg",
+                        "hash": "small_02_4251096478",
+                        "mime": "image/jpeg",
+                        "name": "small_02.jpg",
+                        "path": null,
+                        "size": 30.15,
+                        "width": 346,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "small_02_4251096478",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/medium_02_4251096478.jpg",
+                        "hash": "medium_02_4251096478",
+                        "mime": "image/jpeg",
+                        "name": "medium_02.jpg",
+                        "path": null,
+                        "size": 62.18,
+                        "width": 518,
+                        "height": 750,
+                        "provider_metadata": {
+                          "public_id": "medium_02_4251096478",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/thumbnail_02_4251096478.jpg",
+                        "hash": "thumbnail_02_4251096478",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_02.jpg",
+                        "path": null,
+                        "size": 3.97,
+                        "width": 108,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_02_4251096478",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "name": "01.jpg",
+                    "alternativeText": null,
+                    "width": 1836,
+                    "height": 2480,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/01_72125a8f3c.jpg",
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/large_01_72125a8f3c.jpg",
+                        "hash": "large_01_72125a8f3c",
+                        "mime": "image/jpeg",
+                        "name": "large_01.jpg",
+                        "path": null,
+                        "size": 125.72,
+                        "width": 740,
+                        "height": 1000,
+                        "provider_metadata": {
+                          "public_id": "large_01_72125a8f3c",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/small_01_72125a8f3c.jpg",
+                        "hash": "small_01_72125a8f3c",
+                        "mime": "image/jpeg",
+                        "name": "small_01.jpg",
+                        "path": null,
+                        "size": 33.59,
+                        "width": 370,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "small_01_72125a8f3c",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/medium_01_72125a8f3c.jpg",
+                        "hash": "medium_01_72125a8f3c",
+                        "mime": "image/jpeg",
+                        "name": "medium_01.jpg",
+                        "path": null,
+                        "size": 70.06,
+                        "width": 555,
+                        "height": 750,
+                        "provider_metadata": {
+                          "public_id": "medium_01_72125a8f3c",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695300319/thumbnail_01_72125a8f3c.jpg",
+                        "hash": "thumbnail_01_72125a8f3c",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_01.jpg",
+                        "path": null,
+                        "size": 4.5,
+                        "width": 115,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_01_72125a8f3c",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
