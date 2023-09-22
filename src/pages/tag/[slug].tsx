@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { QUERIES_GET_POSTS_BY_TAG } from '../../graphql/queries';
-import Posts from '../../templates/Posts';
+import PostsTemplate from '../../templates/PostsTemplate';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,
@@ -41,7 +41,7 @@ export default function TagPage({
       <Head>
         <title>{`Categoria: ${tagName}`}</title>
       </Head>
-      <Posts
+      <PostsTemplate
         posts={posts}
         setting={setting}
         gridTitle={tagName}

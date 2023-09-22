@@ -86,7 +86,6 @@ export const Nav = styled.nav<Pick<HeaderProps, 'showMenu'>>`
     right: 0;
     transition: ${theme.transitions.faster};
     background-color: ${theme.colors.background};
-    /* backdrop-filter: blur(10px); */
     opacity: 0;
     visibility: hidden;
 

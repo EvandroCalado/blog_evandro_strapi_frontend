@@ -1,12 +1,12 @@
 import { Meta, StoryFn } from '@storybook/react';
-import Base, { BaseProps } from '.';
+import BaseTemplate, { BaseTemplateProps } from '.';
 
 import mock from '../../utils/db.json';
 const setting = mock.data.setting;
 
 export default {
-  title: 'Templates/Base',
-  component: Base,
+  title: 'Templates/BaseTemplate',
+  component: BaseTemplate,
   args: {
     children: 'Conteúdo',
     setting,
@@ -16,4 +16,6 @@ export default {
   },
 } as Meta;
 
-export const Default: StoryFn<BaseProps> = (args) => <Base {...args} />;
+export const Default: StoryFn<BaseTemplateProps> = (args) => (
+  <BaseTemplate {...args} />
+);

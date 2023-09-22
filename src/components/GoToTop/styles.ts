@@ -5,17 +5,16 @@ export const Button = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
+    background-color: ${theme.colors.secondary};
     outline: none;
     border: none;
     cursor: pointer;
     border-radius: ${theme.spacings.xs};
     transition: bounce .2s ease-in-out, border 200ms ease-in-out;
     animation: bounce 2s ease-in-out infinite;
-    position: sticky;
+    position: fixed;
     right: ${theme.spacings.md};
     bottom: ${theme.spacings.md};
-    margin-left: auto;
 
     & svg {
       width: 4rem;

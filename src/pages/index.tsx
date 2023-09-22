@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { QUERIES_GET_POSTS } from '../graphql/queries';
-import Posts from '../templates/Posts';
+import PostsTemplate from '../templates/PostsTemplate';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,
@@ -29,7 +29,7 @@ export default function Home({ posts, setting, variables, route }: HomeProps) {
           content={setting.data.attributes.blogDescription}
         />
       </Head>
-      <Posts
+      <PostsTemplate
         posts={posts}
         setting={setting}
         variables={variables}

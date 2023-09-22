@@ -5,88 +5,70 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
   text-transform: none;
 }
 
-.c7 a {
-  font-weight: 600;
-  transition: all 200ms ease-in-out;
-  margin-right: 1rem;
-}
-
-.c7 a:hover {
-  filter: brightness(1.4);
-}
-
-.c7 a::before {
-  content: '#';
-}
-
-.c7 a:not(:last-of-type)::after {
-  content: ',';
-}
-
-.c10 {
+.c9 {
   display: flex;
   align-content: center;
   gap: 1rem;
 }
 
-.c10 svg {
+.c9 svg {
   width: 2rem;
 }
 
-.c11 {
+.c10 {
   display: flex;
   align-items: end;
   font-weight: 600;
 }
 
-.c12 {
+.c11 {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 3rem 2rem;
 }
 
-.c12>a {
+.c11>a {
   width: 100%;
   height: 20rem;
   margin-bottom: 2rem;
 }
 
-.c13 {
+.c12 {
   position: relative;
   width: 100%;
   height: 100%;
   margin-bottom: 2rem;
 }
 
-.c13 img {
+.c12 img {
   object-fit: cover;
   border-radius: 1rem;
 }
 
-.c14 {
+.c13 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.c14>a {
+.c13>a {
   transition: all 200ms ease-in-out;
 }
 
-.c14>a:hover {
+.c13>a:hover {
   text-decoration: underline;
   filter: invert(.2);
 }
 
-.c1 {
+.c13 .c1 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
 
-.c15 {
+.c14 {
   margin: 0.5rem 0;
   overflow: hidden;
   display: -webkit-box;
@@ -94,7 +76,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
   -webkit-line-clamp: 4;
 }
 
-.c16 {
+.c15 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,7 +122,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
   filter: invert(.2);
 }
 
-.c8 {
+.c7 {
   margin: 3rem 0;
   overflow: hidden;
   display: -webkit-box;
@@ -148,7 +130,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
   -webkit-line-clamp: 5;
 }
 
-.c9 {
+.c8 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -202,14 +184,14 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
 }
 
 @media screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin: 1rem 0;
     -webkit-line-clamp: 4;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .c8 {
+  .c7 {
     margin: 1rem 0;
     -webkit-line-clamp: 3;
   }
@@ -260,35 +242,19 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
               Desenvolvimento de APIs e CMS Flexíveis e Eficient
             </h2>
           </a>
-          <div
-            class="c7"
-          >
-            <a
-              href="/category/strapi"
-              style="color: rgb(30, 58, 138);"
-            >
-              Strapi
-            </a>
-            <a
-              href="/category/node"
-              style="color: rgb(16, 185, 129);"
-            >
-              Node
-            </a>
-          </div>
           <p
-            class="c8"
+            class="c7"
           >
             Strapi é um sistema de gerenciamento de conteúdo (CMS) e framework de desenvolvimento de APIs de código aberto. Ele oferece uma interface amigável para criar e gerenciar conteúdo, além de permitir que os desenvolvedores criem APIs personalizadas para suas aplicações.
           </p>
           <div
-            class="c9"
+            class="c8"
           >
             <div
-              class="c10"
+              class="c9"
             >
               <span
-                class="c11"
+                class="c10"
               >
                 <svg
                   class="icon icon-tabler icon-tabler-clock-filled"
@@ -313,7 +279,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
                 </svg>
               </span>
               <span
-                class="c11"
+                class="c10"
               >
                 3 minutos de leitura
               </span>
@@ -327,13 +293,13 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <a
           href="/post/desvendando-a-magia-do-desenvolvimento-web-moderno"
         >
           <div
-            class="c13"
+            class="c12"
           >
             <img
               alt="small_pexels-utpal-chatterjee-16401141.jpg"
@@ -348,7 +314,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
           </div>
         </a>
         <div
-          class="c14"
+          class="c13"
         >
           <a
             href="/post/desvendando-a-magia-do-desenvolvimento-web-moderno"
@@ -359,41 +325,19 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
               Desvendando a Magia do Desenvolvimento Web Moderno
             </h2>
           </a>
-          <div
-            class="c7"
-          >
-            <a
-              href="/category/javascript"
-              style="color: rgb(234, 179, 8);"
-            >
-              Javascript
-            </a>
-            <a
-              href="/category/react"
-              style="color: rgb(6, 182, 212);"
-            >
-              React
-            </a>
-            <a
-              href="/category/next"
-              style="color: rgb(107, 114, 128);"
-            >
-              Next
-            </a>
-          </div>
           <p
-            class="c15"
+            class="c14"
           >
             O Next.js é uma estrutura de desenvolvimento web de código aberto construída sobre o React. Ele oferece uma variedade de recursos avançados que facilitam a criação de aplicativos web modernos e eficientes. Alguns dos principais recursos incluem:
           </p>
           <div
-            class="c16"
+            class="c15"
           >
             <div
-              class="c10"
+              class="c9"
             >
               <span
-                class="c11"
+                class="c10"
               >
                 <svg
                   class="icon icon-tabler icon-tabler-clock-filled"
@@ -418,7 +362,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
                 </svg>
               </span>
               <span
-                class="c11"
+                class="c10"
               >
                 4 minutos de leitura
               </span>
@@ -432,13 +376,13 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <a
           href="/post/construindo-interfaces-modernas-e-reativas"
         >
           <div
-            class="c13"
+            class="c12"
           >
             <img
               alt="small_pexels-nandu-vasudevan-10920674.jpg"
@@ -453,7 +397,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
           </div>
         </a>
         <div
-          class="c14"
+          class="c13"
         >
           <a
             href="/post/construindo-interfaces-modernas-e-reativas"
@@ -464,35 +408,19 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
               Construindo Interfaces Modernas e Reativas
             </h2>
           </a>
-          <div
-            class="c7"
-          >
-            <a
-              href="/category/javascript"
-              style="color: rgb(234, 179, 8);"
-            >
-              Javascript
-            </a>
-            <a
-              href="/category/react"
-              style="color: rgb(6, 182, 212);"
-            >
-              React
-            </a>
-          </div>
           <p
-            class="c15"
+            class="c14"
           >
             O React é uma biblioteca JavaScript de código aberto mantida pelo Facebook e por uma comunidade ativa de desenvolvedores. Ele foi projetado para criar interfaces de usuário (UI) reutilizáveis e responsivas em aplicações web. A principal característica do React é a sua abordagem centrada em componentes, que permite dividir a UI em partes menores e reutilizáveis chamadas de "componentes".
           </p>
           <div
-            class="c16"
+            class="c15"
           >
             <div
-              class="c10"
+              class="c9"
             >
               <span
-                class="c11"
+                class="c10"
               >
                 <svg
                   class="icon icon-tabler icon-tabler-clock-filled"
@@ -517,7 +445,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
                 </svg>
               </span>
               <span
-                class="c11"
+                class="c10"
               >
                 5 minutos de leitura
               </span>
@@ -531,13 +459,13 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <a
           href="/post/dominando-o-mundo-da-programacao-com-java-script"
         >
           <div
-            class="c13"
+            class="c12"
           >
             <img
               alt="small_pexels-vidit-goel-12429032.jpg"
@@ -552,7 +480,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
           </div>
         </a>
         <div
-          class="c14"
+          class="c13"
         >
           <a
             href="/post/dominando-o-mundo-da-programacao-com-java-script"
@@ -563,29 +491,19 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
               Dominando o Mundo da Programação com JavaScript
             </h2>
           </a>
-          <div
-            class="c7"
-          >
-            <a
-              href="/category/javascript"
-              style="color: rgb(234, 179, 8);"
-            >
-              Javascript
-            </a>
-          </div>
           <p
-            class="c15"
+            class="c14"
           >
             JavaScript, frequentemente abreviado como JS, é uma linguagem de programação de alto nível que permite adicionar interatividade e funcionalidade a páginas web. É executado no navegador do cliente (front-end) e pode interagir com o HTML e o CSS para criar experiências ricas para o usuário.
           </p>
           <div
-            class="c16"
+            class="c15"
           >
             <div
-              class="c10"
+              class="c9"
             >
               <span
-                class="c11"
+                class="c10"
               >
                 <svg
                   class="icon icon-tabler icon-tabler-clock-filled"
@@ -610,7 +528,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
                 </svg>
               </span>
               <span
-                class="c11"
+                class="c10"
               >
                 4 minutos de leitura
               </span>

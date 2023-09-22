@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const headerHeight = 193;
-const footerHeight = 200;
+const headerHeight = 182;
+const footerHeight = 130;
 
 export const Container = styled.div`
     height: calc(100vh - ${headerHeight}px - ${footerHeight}px);

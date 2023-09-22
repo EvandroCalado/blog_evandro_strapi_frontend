@@ -45,8 +45,6 @@ export const ContentContainer = styled.div`
       }
     }
 
-    }
-
     ${Title} {
       overflow: hidden;
       display: -webkit-box;

@@ -1,9 +1,11 @@
 import { request } from 'graphql-request';
 import { Posts, Setting } from '../types/strapi';
+import { Abouts } from '../types/strapi-about';
 
 export interface LoadPostsProps {
   posts: Posts;
   setting: Setting;
+  abouts: Abouts;
 }
 
 export interface LoadPostsVariables {

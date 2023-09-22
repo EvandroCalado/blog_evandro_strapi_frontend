@@ -1,39 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostCard /> should render a snapshot 1`] = `
-.c5 a {
-  font-weight: 600;
-  transition: all 200ms ease-in-out;
-  margin-right: 1rem;
-}
-
-.c5 a:hover {
-  filter: brightness(1.4);
-}
-
-.c5 a::before {
-  content: '#';
-}
-
-.c5 a:not(:last-of-type)::after {
-  content: ',';
-}
-
 .c4 {
   text-transform: none;
 }
 
-.c8 {
+.c7 {
   display: flex;
   align-content: center;
   gap: 1rem;
 }
 
-.c8 svg {
+.c7 svg {
   width: 2rem;
 }
 
-.c9 {
+.c8 {
   display: flex;
   align-items: end;
   font-weight: 600;
@@ -79,14 +61,14 @@ exports[`<PostCard /> should render a snapshot 1`] = `
   filter: invert(.2);
 }
 
-.c3 {
+.c2 .c3 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
 
-.c6 {
+.c5 {
   margin: 0.5rem 0;
   overflow: hidden;
   display: -webkit-box;
@@ -94,7 +76,7 @@ exports[`<PostCard /> should render a snapshot 1`] = `
   -webkit-line-clamp: 4;
 }
 
-.c7 {
+.c6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -134,35 +116,19 @@ exports[`<PostCard /> should render a snapshot 1`] = `
           Desenvolvimento de APIs e CMS Flexíveis e Eficient
         </h2>
       </a>
-      <div
-        class="c5"
-      >
-        <a
-          href="/category/strapi"
-          style="color: rgb(30, 58, 138);"
-        >
-          Strapi
-        </a>
-        <a
-          href="/category/node"
-          style="color: rgb(16, 185, 129);"
-        >
-          Node
-        </a>
-      </div>
       <p
-        class="c6"
+        class="c5"
       >
         Strapi é um sistema de gerenciamento de conteúdo (CMS) e framework de desenvolvimento de APIs de código aberto. Ele oferece uma interface amigável para criar e gerenciar conteúdo, além de permitir que os desenvolvedores criem APIs personalizadas para suas aplicações.
       </p>
       <div
-        class="c7"
+        class="c6"
       >
         <div
-          class="c8"
+          class="c7"
         >
           <span
-            class="c9"
+            class="c8"
           >
             <svg
               class="icon icon-tabler icon-tabler-clock-filled"
@@ -187,7 +153,7 @@ exports[`<PostCard /> should render a snapshot 1`] = `
             </svg>
           </span>
           <span
-            class="c9"
+            class="c8"
           >
             3 minutos de leitura
           </span>
