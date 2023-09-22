@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { QUERIES_GET_POSTS_BY_AUTHOR } from '../../graphql/queries';
-import AuthorPosts from '../../templates/AuthorPosts';
+import AuthorTemplate from '../../templates/AuthorTemplate';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,
@@ -39,7 +39,7 @@ export default function AuthorPage({
           {`Author: ${posts.data[0].attributes.author.data.attributes.displayName}`}
         </title>
       </Head>
-      <AuthorPosts
+      <AuthorTemplate
         posts={posts}
         setting={setting}
         gridTitle={`Postagens Recentes de ${posts.data[0].attributes.author.data.attributes.displayName}`}
