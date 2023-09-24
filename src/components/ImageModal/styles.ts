@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 export const Container = styled.div`
   ${({ theme }) => css`
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: ${theme.spacings.md};

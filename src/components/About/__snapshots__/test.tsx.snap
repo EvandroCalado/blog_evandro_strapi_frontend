@@ -7,6 +7,7 @@ exports[`<About /> should render a snapshot 1`] = `
 
 .c5 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 2rem;
