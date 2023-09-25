@@ -5,7 +5,7 @@ import mock from '../../utils/db.json';
 const setting = mock.data.setting;
 
 export default {
-  title: 'Components/BlogLogo',
+  title: 'Blog/BlogLogo',
   component: BlogLogo,
   args: {
     setting,
