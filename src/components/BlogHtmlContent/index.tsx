@@ -1,13 +1,13 @@
 import Prism from 'prismjs';
 import { useEffect } from 'react';
-import { PrismWrapper } from './prism-vsc-dark-plus';
+import { PrismWrapper } from './prism-theme';
 import * as Styled from './styles';
 
-export interface HtmlContentProps {
+export interface BlogHtmlContentProps {
   html: string;
 }
 
-export default function HtmlContent({ html }: HtmlContentProps) {
+export default function BlogHtmlContent({ html }: BlogHtmlContentProps) {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       Prism.highlightAll();

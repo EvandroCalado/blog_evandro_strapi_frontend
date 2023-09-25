@@ -159,16 +159,6 @@ exports[`<Post /> should render a snapshot 1`] = `
   -webkit-line-clamp: 3;
 }
 
-.c18 {
-  width: 100%;
-  max-width: 80rem;
-  margin: 0 auto;
-}
-
-.c18 iframe {
-  color: #020415;
-}
-
 .c10 code[class*="language-"],
 .c10 pre[class*="language-"] {
   color: #f8f8f2;
@@ -350,6 +340,16 @@ exports[`<Post /> should render a snapshot 1`] = `
   font-style: italic;
   padding-left: 2rem;
   margin: 2rem 0;
+}
+
+.c18 {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.c18 iframe {
+  color: #020415;
 }
 
 .c12 {

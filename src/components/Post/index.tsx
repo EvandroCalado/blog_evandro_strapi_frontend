@@ -1,8 +1,8 @@
 import { Post as StrapiPost } from '../../types/strapi';
 import BlogArticleMeta from '../BlogArticleMeta';
 import BlogAuthor from '../BlogAuthor';
+import HtmlContent from '../BlogHtmlContent';
 import Comments from '../Comments';
-import HtmlContent from '../HtmlContent';
 import Tags from '../Tags';
 import * as Styled from './styles';
 

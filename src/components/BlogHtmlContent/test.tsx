@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import { screen } from '@testing-library/react';
+import HtmlComponent from '.';
 import { renderTheme } from '../../styles/render-theme';
-import HtmlComponent from './';
 
 describe('<HtmlComponent />', () => {
   it('should render with default values', () => {

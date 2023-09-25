@@ -1,12 +1,12 @@
 import { Meta, StoryFn } from '@storybook/react';
-import HtmlContent, { HtmlContentProps } from '.';
+import BlogHtmlContent, { BlogHtmlContentProps } from '.';
 
 import mock from '../../utils/db.json';
 const content = mock.data.posts.data[3].attributes.content;
 
 export default {
-  title: 'Components/HtmlContent',
-  component: HtmlContent,
+  title: 'Blog/BlogHtmlContent',
+  component: BlogHtmlContent,
   args: {
     html: content,
   },
@@ -15,6 +15,6 @@ export default {
   },
 } as Meta;
 
-export const Default: StoryFn<HtmlContentProps> = (args) => (
-  <HtmlContent {...args} />
+export const Default: StoryFn<BlogHtmlContentProps> = (args) => (
+  <BlogHtmlContent {...args} />
 );
