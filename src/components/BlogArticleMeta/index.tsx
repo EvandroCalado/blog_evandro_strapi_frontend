@@ -7,11 +7,11 @@ import Heading from '../Heading';
 import ReadingTime from '../ReadingTime';
 import * as Styled from './styles';
 
-export interface ArticleMetaProps {
+export interface BlogArticleMetaProps {
   post: StrapiPost;
 }
 
-export default function ArticleMeta({ post }: ArticleMetaProps) {
+export default function BlogArticleMeta({ post }: BlogArticleMetaProps) {
   const {
     title,
     cover,

@@ -1,12 +1,12 @@
 import { Meta, StoryFn } from '@storybook/react';
-import ArticleMeta, { ArticleMetaProps } from '.';
+import BlogArticleMeta, { BlogArticleMetaProps } from '.';
 
 import mock from '../../utils/db.json';
 const post = mock.data.posts.data[0];
 
 export default {
-  title: 'Components/ArticleMeta',
-  component: ArticleMeta,
+  title: 'Blog/BlogArticleMeta',
+  component: BlogArticleMeta,
   args: {
     post,
   },
@@ -15,6 +15,6 @@ export default {
   },
 } as Meta;
 
-export const Default: StoryFn<ArticleMetaProps> = (args) => (
-  <ArticleMeta {...args} />
+export const Default: StoryFn<BlogArticleMetaProps> = (args) => (
+  <BlogArticleMeta {...args} />
 );

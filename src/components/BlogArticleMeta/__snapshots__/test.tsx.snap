@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ArticleMeta /> should render with default values 1`] = `
+exports[`<BlogArticleMeta /> should render with default values 1`] = `
 .c5 a {
   font-weight: 600;
   transition: all 200ms ease-in-out;

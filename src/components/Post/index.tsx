@@ -1,6 +1,6 @@
 import { Post as StrapiPost } from '../../types/strapi';
-import ArticleMeta from '../ArticleMeta';
-import Author from '../Author';
+import BlogArticleMeta from '../BlogArticleMeta';
+import BlogAuthor from '../BlogAuthor';
 import Comments from '../Comments';
 import HtmlContent from '../HtmlContent';
 import Tags from '../Tags';
@@ -13,10 +13,10 @@ export interface PostProps {
 export default function Post({ post }: PostProps) {
   return (
     <Styled.Article>
-      <ArticleMeta post={post} />
+      <BlogArticleMeta post={post} />
       <HtmlContent html={post.attributes.content} />
       <Tags tags={post.attributes.tags} />
-      <Author author={post.attributes.author} />
+      <BlogAuthor author={post.attributes.author} />
       <Comments
         id={post.id}
         slug={post.attributes.slug}
