@@ -3,15 +3,15 @@ import { Pagination, Author as StrapiAuthor } from '../../types/strapi';
 import Heading from '../Heading';
 import * as Styled from './styles';
 
-export interface AuthorPerfilProps {
+export interface BlogAuthorPerfilProps {
   author: StrapiAuthor;
   pagination: Pagination;
 }
 
-export default function AuthorPerfil({
+export default function BlogAuthorPerfil({
   author,
   pagination,
-}: AuthorPerfilProps) {
+}: BlogAuthorPerfilProps) {
   const { image, displayName, description } = author.data.attributes;
   const { url, name } = image.data.attributes;
 

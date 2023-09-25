@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import { screen } from '@testing-library/react';
+import AuthorPerfil from '.';
 import { renderTheme } from '../../styles/render-theme';
-import AuthorPerfil from './';
 
 import mock from '../../utils/db.json';
 const author = mock.data.posts.data[0].attributes.author;

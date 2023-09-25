@@ -1,13 +1,13 @@
 import { Meta, StoryFn } from '@storybook/react';
-import AuthorPerfil, { AuthorPerfilProps } from '.';
+import BlogAuthorPerfil, { BlogAuthorPerfilProps } from '.';
 
 import mock from '../../utils/db.json';
 const author = mock.data.posts.data[0].attributes.author;
 const pagination = mock.data.posts.meta.pagination;
 
 export default {
-  title: 'Components/AuthorPerfil',
-  component: AuthorPerfil,
+  title: 'Blog/BlogAuthorPerfil',
+  component: BlogAuthorPerfil,
   args: {
     author,
     pagination,
@@ -17,6 +17,6 @@ export default {
   },
 } as Meta;
 
-export const Default: StoryFn<AuthorPerfilProps> = (args) => (
-  <AuthorPerfil {...args} />
+export const Default: StoryFn<BlogAuthorPerfilProps> = (args) => (
+  <BlogAuthorPerfil {...args} />
 );

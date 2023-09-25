@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import AuthorPerfil from '../../components/AuthorPerfil';
+import BlogAuthorPerfil from '../../components/BlogAuthorPerfil';
 import Button from '../../components/Button';
 import PostGrid from '../../components/PostGrid';
 import {
@@ -62,7 +62,7 @@ export default function AuthorTemplate({
 
   return (
     <Base setting={setting}>
-      <AuthorPerfil
+      <BlogAuthorPerfil
         author={posts.data[0].attributes.author}
         pagination={posts.meta.pagination}
       />
