@@ -4,7 +4,7 @@ import Header, { HeaderProps } from '.';
 import mock from '../../utils/db.json';
 
 export default {
-  title: 'Components/Header',
+  title: 'Shared/Header',
   component: Header,
   args: mock.data,
   parameters: {

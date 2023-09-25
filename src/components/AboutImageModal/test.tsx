@@ -1,14 +1,14 @@
 import '@testing-library/jest-dom';
 import { fireEvent, screen } from '@testing-library/react';
+import AboutImageModal from '.';
 import { renderTheme } from '../../styles/render-theme';
-import ImageModal from './';
 
 import mock from '../../utils/about.json';
 const imageHobby = mock.data.abouts.data[0].attributes.imageHobby;
 
-describe('<ImageModal />', () => {
+describe('<AboutImageModal />', () => {
   it('should render with default values', () => {
-    renderTheme(<ImageModal imageHobby={imageHobby} />);
+    renderTheme(<AboutImageModal imageHobby={imageHobby} />);
     expect(
       screen.getByRole('img', { name: 'thumbnail_07.jpg' }),
     ).toBeInTheDocument();
@@ -24,7 +24,7 @@ describe('<ImageModal />', () => {
   });
 
   it('should render the modal', () => {
-    renderTheme(<ImageModal imageHobby={imageHobby} />);
+    renderTheme(<AboutImageModal imageHobby={imageHobby} />);
     const img = screen.getByRole('img', { name: 'thumbnail_07.jpg' });
 
     fireEvent.click(img);
@@ -38,7 +38,9 @@ describe('<ImageModal />', () => {
   });
 
   it('should render a snapshot', () => {
-    const { container } = renderTheme(<ImageModal imageHobby={imageHobby} />);
+    const { container } = renderTheme(
+      <AboutImageModal imageHobby={imageHobby} />,
+    );
 
     expect(container).toMatchSnapshot();
   });

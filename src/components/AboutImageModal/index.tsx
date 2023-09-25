@@ -3,11 +3,11 @@ import { useState } from 'react';
 import { ImageHobby as StrapiImageHobby } from '../../types/strapi-about';
 import * as Styled from './styles';
 
-export interface ImageModalProps {
+export interface AboutImageModalProps {
   imageHobby: StrapiImageHobby;
 }
 
-export default function ImageModal({ imageHobby }: ImageModalProps) {
+export default function AboutImageModal({ imageHobby }: AboutImageModalProps) {
   const [image, setImage] = useState('');
   const [showModal, setShowModal] = useState(false);
 

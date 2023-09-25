@@ -2,7 +2,7 @@ import { Meta } from '@storybook/react';
 import GoToTop from '.';
 
 export default {
-  title: 'Components/GoToTop',
+  title: 'Shared/GoToTop',
   component: GoToTop,
   parameters: {
     layout: 'fullscreen',

@@ -1,10 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<About /> should render a snapshot 1`] = `
-.c2 {
-  text-transform: none;
-}
-
 .c5 {
   display: flex;
   flex-wrap: wrap;
@@ -21,6 +17,10 @@ exports[`<About /> should render a snapshot 1`] = `
 
 .c5>img:hover {
   cursor: zoom-in;
+}
+
+.c2 {
+  text-transform: none;
 }
 
 .c0 {

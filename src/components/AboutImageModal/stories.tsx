@@ -1,12 +1,12 @@
 import { Meta, StoryFn } from '@storybook/react';
-import ImageModal, { ImageModalProps } from '.';
+import AboutImageModal, { AboutImageModalProps } from '.';
 
 import mock from '../../utils/about.json';
 const imageHobby = mock.data.abouts.data[0].attributes.imageHobby;
 
 export default {
-  title: 'Components/ImageModal',
-  component: ImageModal,
+  title: 'About/AboutImageModal',
+  component: AboutImageModal,
   args: {
     imageHobby,
   },
@@ -15,6 +15,6 @@ export default {
   },
 } as Meta;
 
-export const Default: StoryFn<ImageModalProps> = (args) => (
-  <ImageModal {...args} />
+export const Default: StoryFn<AboutImageModalProps> = (args) => (
+  <AboutImageModal {...args} />
 );

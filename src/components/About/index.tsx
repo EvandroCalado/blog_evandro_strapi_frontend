@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { About as AboutStrapi } from '../../types/strapi-about';
+import AboutImageModal from '../AboutImageModal';
 import Heading from '../Heading';
-import ImageModal from '../ImageModal';
 import * as Styled from './styles';
 
 export interface AboutProps {
@@ -20,7 +20,7 @@ export default function About({ about }: AboutProps) {
         <Image src={url} alt={name} width={width} height={height} />
       </Styled.ImageContainer>
       <Styled.Description>{hobby}</Styled.Description>
-      <ImageModal imageHobby={imageHobby} />
+      <AboutImageModal imageHobby={imageHobby} />
     </Styled.Container>
   );
 }

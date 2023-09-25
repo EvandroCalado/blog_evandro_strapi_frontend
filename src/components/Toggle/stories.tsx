@@ -2,7 +2,7 @@ import { Meta } from '@storybook/react';
 import Toggle from '.';
 
 export default {
-  title: 'Components/Toggle',
+  title: 'Shared/Toggle',
   component: Toggle,
 } as Meta;
 

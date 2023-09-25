@@ -2,7 +2,7 @@ import { Meta } from '@storybook/react';
 import ComingSoon from '.';
 
 export default {
-  title: 'Components/ComingSoon',
+  title: 'Shared/ComingSoon',
   component: ComingSoon,
   parameters: {
     layout: 'fullscreen',

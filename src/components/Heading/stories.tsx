@@ -2,7 +2,7 @@ import { Meta, StoryFn } from '@storybook/react';
 import Heading, { HeadingProps } from '.';
 
 export default {
-  title: 'Components/Heading',
+  title: 'Shared/Heading',
   component: Heading,
   args: {
     children: 'Heading',

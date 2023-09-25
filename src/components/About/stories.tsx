@@ -5,7 +5,7 @@ import mock from '../../utils/about.json';
 const about = mock.data.abouts.data[0];
 
 export default {
-  title: 'Components/About',
+  title: 'About/About',
   component: About,
   args: {
     about,
