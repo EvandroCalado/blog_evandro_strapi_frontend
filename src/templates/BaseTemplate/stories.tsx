@@ -5,7 +5,7 @@ import mock from '../../utils/db.json';
 const setting = mock.data.setting;
 
 export default {
-  title: 'Templates/BaseTemplate',
+  title: 'Templates/Templates/BaseTemplate',
   component: BaseTemplate,
   args: {
     children: 'Conteúdo',

@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import BlogAuthorPerfil from '../../components/BlogAuthorPerfil';
-import Button from '../../components/Button';
-import PostGrid from '../../components/PostGrid';
+import AuthorPerfil from '../../components/Blog/AuthorPerfil';
+import PostGrid from '../../components/Blog/PostGrid';
+import Button from '../../components/Shared/Button';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,
@@ -62,7 +62,7 @@ export default function AuthorTemplate({
 
   return (
     <Base setting={setting}>
-      <BlogAuthorPerfil
+      <AuthorPerfil
         author={posts.data[0].attributes.author}
         pagination={posts.meta.pagination}
       />

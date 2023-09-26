@@ -7,7 +7,7 @@ const setting = mock.data.setting;
 const gridTitle = 'Postagens Recentes de Evandro Calado';
 
 export default {
-  title: 'Templates/AuthorTemplate',
+  title: 'Templates/Templates/AuthorTemplate',
   component: AuthorTemplate,
   args: {
     posts,

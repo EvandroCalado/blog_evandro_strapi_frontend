@@ -1,4 +1,4 @@
-import About from '../../components/About';
+import AboutSession from '../../components/About/AboutSession';
 import { Setting as SettingStrapi } from '../../types/strapi';
 import { About as AboutStrapi } from '../../types/strapi-about';
 import Base from '../BaseTemplate';
@@ -12,7 +12,7 @@ export default function AboutTemplate({ setting, about }: AboutTemplateProps) {
   return (
     <>
       <Base setting={setting}>
-        <About about={about} />
+        <AboutSession about={about} />
       </Base>
     </>
   );

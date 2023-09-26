@@ -6,7 +6,7 @@ const setting = mock.data.setting;
 const post = mock.data.posts.data[0];
 
 export default {
-  title: 'Templates/PostTemplate',
+  title: 'Templates/Templates/PostTemplate',
   component: PostTemplate,
   args: {
     setting,

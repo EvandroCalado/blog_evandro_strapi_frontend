@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Author /> should render a snapshot 1`] = `
+.c3 {
+  text-transform: none;
+}
+
+.c5 a {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #383fef;
+  color: #f5f5f5;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  transition: all 200ms ease-in-out;
+}
+
+.c5 a:hover {
+  background-color: #232ae1;
+  padding-right: 2.5rem;
+}
+
+.c5 a:hover svg {
+  margin-left: 1rem;
+}
+
+.c5 a:active {
+  background-color: #00046c;
+}
+
+.c5 svg {
+  width: 2rem;
+  margin-left: 0.5rem;
+  transition: all 200ms ease-in-out;
+}
+
+.c0 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.c1 {
+  position: relative;
+  width: 22rem;
+  height: 17rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-right: 2rem;
+}
+
+.c1 img {
+  object-fit: cover;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c4 {
+  margin: 1rem 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+@media screen and (max-width: 576px) {
+  .c0 {
+    flex-direction: column;
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .c1 {
+    width: 15rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .c2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="Evandro Calado"
+        data-nimg="fill"
+        decoding="async"
+        loading="lazy"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        src="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdnhsdenji%2Fimage%2Fupload%2Fv1694217416%2Fthumbnail_110628201_8f98b88d6a.jpg&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+    </div>
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3"
+      >
+        Evandro Calado
+      </h2>
+      <p
+        class="c4"
+      >
+        🚀 Desenvolvedor Frontend em constante busca por novos horizontes e desafios digitais. Meu dia a dia é uma jornada empolgante de aprendizado contínuo, onde o código é a minha tela em branco e a web é o meu playground criativo. Além de mergulhar nas linhas de código, sou abençoado por ser pai de uma menininha incrível, que me inspira a ser o meu melhor a cada dia. E quando não estou transformando ideias em experiências digitais, você pode me encontrar dando vida a ilustrações e rabiscos. Vem comigo nesta aventura em busca da excelência na criação digital !  ✨👨‍💻👨‍🎨
+      </p>
+      <div
+        class="c5"
+      >
+        <a
+          href="/author/evandro-calado"
+        >
+          ver perfil
+           
+          <svg
+            class="icon icon-tabler icon-tabler-arrow-right"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+              stroke="none"
+            />
+            <path
+              d="M5 12l14 0"
+            />
+            <path
+              d="M13 18l6 -6"
+            />
+            <path
+              d="M13 6l6 6"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

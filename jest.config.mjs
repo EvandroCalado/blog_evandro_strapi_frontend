@@ -23,7 +23,7 @@ const config = {
     '!<rootDir>/src/graphql/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/stories/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/types/**/*.{js,jsx,ts,tsx}',
-    '!<rootDir>/src/components/Comments/**/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/components/Blog/Comments/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/node_modules/',
   ],
 };

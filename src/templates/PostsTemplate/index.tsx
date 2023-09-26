@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Button from '../../components/Button';
-import PostGrid from '../../components/PostGrid';
+import PostGrid from '../../components/Blog/PostGrid';
+import Button from '../../components/Shared/Button';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,

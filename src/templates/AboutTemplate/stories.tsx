@@ -7,7 +7,7 @@ const setting = mock.data.setting;
 const about = aboutMock.data.abouts.data[0];
 
 export default {
-  title: 'Templates/AboutTemplate',
+  title: 'Templates/Templates/AboutTemplate',
   component: AboutTemplate,
   args: {
     setting,
