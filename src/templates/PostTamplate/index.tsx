@@ -1,4 +1,4 @@
-import Post from '../../components/Blog/Post';
+import Post from '../../components/Blog/Post/Post';
 import {
   Post as StrapiPost,
   Setting as StrapiSetting,

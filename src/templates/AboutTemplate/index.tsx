@@ -1,4 +1,4 @@
-import AboutSession from '../../components/About/AboutSession';
+import AboutSession from '../../components/About/AboutSession/AboutSession';
 import { Setting as SettingStrapi } from '../../types/strapi';
 import { About as AboutStrapi } from '../../types/strapi-about';
 import Base from '../BaseTemplate';

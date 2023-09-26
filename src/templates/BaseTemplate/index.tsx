@@ -1,6 +1,6 @@
-import Footer from '../../components/Shared/Footer';
-import GoToTop from '../../components/Shared/GoToTop';
-import Header from '../../components/Shared/Header';
+import Footer from '../../components/Shared/Footer/Footer';
+import GoToTop from '../../components/Shared/GoToTop/GoToTop';
+import Header from '../../components/Shared/Header/Header';
 import { Setting } from '../../types/strapi';
 
 export interface BaseTemplateProps {
