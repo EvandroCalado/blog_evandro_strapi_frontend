@@ -2,13 +2,13 @@ import Image from 'next/image';
 import { About as AboutStrapi } from '../../../types/strapi-about';
 import Heading from '../../Shared/Heading/Heading';
 import AboutImageModal from '../AboutImageModal/AboutImageModal';
-import * as Styled from './AboutSession.styles';
+import * as Styled from './AboutSection.styles';
 
-export interface AboutSessionProps {
+export interface AboutSectionProps {
   about: AboutStrapi;
 }
 
-export default function AboutSession({ about }: AboutSessionProps) {
+export default function AboutSection({ about }: AboutSectionProps) {
   const { title, description, image, hobby, imageHobby } = about.attributes;
   const { url, name, width, height } = image.data.attributes;
 

@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import { screen } from '@testing-library/react';
 import { renderTheme } from '../../../styles/render-theme';
-import AboutSession from './AboutSession';
+import AboutSession from './AboutSection';
 
 import mock from '../../../utils/about.json';
 const about = mock.data.abouts.data[0];
