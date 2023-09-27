@@ -1,7 +1,12 @@
 import styled, { css } from 'styled-components';
+import { ButtonProps } from '..';
 
-export const Button = styled.button`
-  ${({ theme }) => css`
+export const Button = styled.button<ButtonProps>`
+  ${({ theme, width }) => css`
+    width: ${width};
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: ${theme.colors.secondary};
     color: ${theme.colors.neltral1};
     outline: none;
