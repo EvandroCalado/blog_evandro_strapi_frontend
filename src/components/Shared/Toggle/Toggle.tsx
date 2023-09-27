@@ -1,6 +1,7 @@
 import { useContext, useEffect } from 'react';
 import { BlogThemeContext } from '../../../context/BlogThemeContext';
-import icons from '../../../icons';
+import { IconDark } from '../../../icons/icon-dark';
+import { IconLight } from '../../../icons/icon-light';
 import * as Styled from './Toggle.styles';
 
 export default function Toggle() {
@@ -19,8 +20,8 @@ export default function Toggle() {
     <Styled.Label>
       <Styled.Input type="checkbox" />
       <Styled.Span onClick={handleClick} />
-      {icons.light}
-      {icons.dark}
+      {IconLight}
+      {IconDark}
     </Styled.Label>
   );
 }

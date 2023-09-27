@@ -1,32 +1,34 @@
 import Link from 'next/link';
-import icons from '../../../icons';
+import { IconGithub } from '../../../icons/icon-github';
+import { IconInstagram } from '../../../icons/icon-instagram';
+import { IconLinkedin } from '../../../icons/icon-linkedin';
 import { Setting } from '../../../types/strapi';
 import * as Styled from './Footer.styles';
+
+export interface FooterProps {
+  setting: Setting;
+}
 
 const footerData = [
   {
     id: 432,
     link: 'https://github.com/EvandroCalado',
-    icon: icons.github,
+    icon: IconGithub,
     testId: 'github',
   },
   {
     id: 433,
     link: 'https://www.linkedin.com/in/evandro-calado',
-    icon: icons.linkedin,
+    icon: IconLinkedin,
     testId: 'linkedin',
   },
   {
     id: 434,
     link: 'https://www.instagram.com/dev_evandro',
-    icon: icons.instagram,
+    icon: IconInstagram,
     testId: 'instagram',
   },
 ];
-
-export interface FooterProps {
-  setting: Setting;
-}
 
 export default function Footer({ setting }: FooterProps) {
   const { footer } = setting.data.attributes;

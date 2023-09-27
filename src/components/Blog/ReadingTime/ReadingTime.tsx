@@ -1,5 +1,5 @@
 import { readingTime } from 'reading-time-estimator';
-import icons from '../../../icons';
+import { IconClock } from '../../../icons/icon-clock';
 import * as Styled from './ReadingTime.styles';
 
 export interface ReadingTimeProps {
@@ -11,7 +11,7 @@ export default function ReadingTime({ content }: ReadingTimeProps) {
 
   return (
     <Styled.Container>
-      <Styled.Span>{icons.clock}</Styled.Span>
+      <Styled.Span>{IconClock}</Styled.Span>
       <Styled.Span>{result.text}</Styled.Span>
     </Styled.Container>
   );

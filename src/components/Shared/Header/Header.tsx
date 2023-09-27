@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
-import icons from '../../../icons';
+import { IconMenu } from '../../../icons/icon-menu';
+import { IconSearch } from '../../../icons/icon-search';
+import { IconX } from '../../../icons/icon-x';
 import { Setting } from '../../../types/strapi';
 import Logo from '../Logo/Logo';
 import Toggle from '../Toggle/Toggle';
@@ -24,11 +26,11 @@ export default function Header({ setting }: HeaderProps) {
       <Styled.NavContainer>
         {showMenu ? (
           <span onClick={() => setShowMenu(!showMenu)} data-testid="close">
-            {icons.x}
+            {IconX}
           </span>
         ) : (
           <span onClick={() => setShowMenu(!showMenu)} data-testid="menu">
-            {icons.menu}
+            {IconMenu}
           </span>
         )}
 
@@ -47,7 +49,7 @@ export default function Header({ setting }: HeaderProps) {
             name="q"
             defaultValue={router.query.q}
           />
-          {icons.search}
+          {IconSearch}
         </Styled.SearchContainer>
       </Styled.NavContainer>
     </Styled.HeaderContainer>

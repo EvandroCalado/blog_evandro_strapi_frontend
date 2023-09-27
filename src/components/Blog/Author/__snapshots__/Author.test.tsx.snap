@@ -137,7 +137,7 @@ exports[`<Author /> should render a snapshot 1`] = `
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="1"
+            stroke-width="{1}"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >

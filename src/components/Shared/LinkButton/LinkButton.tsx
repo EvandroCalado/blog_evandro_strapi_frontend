@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import icons from '../../../icons';
+import { IconArrowRight } from '../../../icons/icon-arrowright';
 import * as Styled from './LinkButton.styles';
 
 export interface LinkButtonProps {
@@ -11,7 +11,7 @@ export default function LinkButton({ children, href }: LinkButtonProps) {
   return (
     <Styled.Container>
       <Link href={href}>
-        {children} {icons.arrowRght}
+        {children} {IconArrowRight}
       </Link>
     </Styled.Container>
   );
