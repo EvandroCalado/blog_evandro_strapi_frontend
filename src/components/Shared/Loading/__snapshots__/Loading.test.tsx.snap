@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading /> should render a snapshot 1`] = `
+.c0 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-top-color: #020415;
+  animation: spin 1s linear infinite;
+}
+
+<div>
+  <div
+    class="c0"
+  />
+</div>
+`;
