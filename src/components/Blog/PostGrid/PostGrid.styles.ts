@@ -4,6 +4,7 @@ import { Title } from '../../Shared/Heading/Heading.styles';
 export const Container = styled.div`
   ${({ theme }) => css`
     width: 100%;
+    min-height: 49.1rem;
     max-width: ${theme.frameSizes['6xl']};
     margin: 0 auto;
 

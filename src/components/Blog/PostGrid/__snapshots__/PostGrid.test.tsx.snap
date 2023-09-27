@@ -138,6 +138,7 @@ exports[`<PostGrid /> should render a snapshot 1`] = `
 
 .c0 {
   width: 100%;
+  min-height: 49.1rem;
   max-width: 120rem;
   margin: 0 auto;
 }
