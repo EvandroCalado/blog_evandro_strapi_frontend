@@ -1,12 +1,12 @@
-import { useState } from 'react';
 import PostGrid from '../../components/Blog/PostGrid/PostGrid';
 import Button from '../../components/Shared/Button/Button';
+import Loading from '../../components/Shared/Loading/Loading';
+import usePagination from '../../hooks/usePagination';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,
 } from '../../types/strapi';
-import { LoadPostsVariables, loadPosts } from '../../utils/load-posts';
-import { paginationQueries } from '../../utils/pagination-queries';
+import { LoadPostsVariables } from '../../utils/load-posts';
 import Base from '../BaseTemplate/BaseTemplate';
 import * as Styled from './PostsTemplate.styles';
 
@@ -25,47 +25,26 @@ export default function PostsTemplate({
   variables,
   route,
 }: PostsTemplateProps) {
-  const [statePosts, setStatePosts] = useState(posts);
-  const [stateVariables, setStateVariables] = useState(variables);
-  const [buttonDisabled, setButtonDisabled] = useState(false);
-  const [noMorePosts, setNoMorePosts] = useState(false);
-
-  const handleLoadMorePosts = async () => {
-    setButtonDisabled(true);
-
-    const newVariables = {
-      ...stateVariables,
-      start: stateVariables!.start! + stateVariables!.limit!,
-      limit: stateVariables!.limit,
-    };
-
-    const morePosts = await loadPosts(
-      paginationQueries[route! as keyof typeof paginationQueries],
-      newVariables,
-    );
-
-    if (!morePosts || !morePosts.posts.data || !morePosts.posts.data.length) {
-      setNoMorePosts(true);
-      return;
-    }
-
-    const posts = {
-      ...statePosts,
-      data: [...statePosts.data, ...morePosts.posts.data],
-    };
-
-    setButtonDisabled(false);
-    setStateVariables(newVariables);
-    setStatePosts(posts);
-  };
+  const { handleLoadMorePosts, loading, noMorePosts, statePosts } =
+    usePagination(posts, variables, route);
 
   return (
     <Base setting={setting}>
       <PostGrid posts={statePosts} gridTitle={gridTitle} />
       <Styled.ButtonContainer>
-        {posts.data.length === 0 ? null : (
-          <Button onClick={handleLoadMorePosts} disabled={buttonDisabled}>
-            {noMorePosts ? 'Sem mais posts' : 'Carregar mais'}
+        {statePosts.data.length === 0 ? null : (
+          <Button
+            onClick={handleLoadMorePosts}
+            disabled={noMorePosts}
+            width="200px"
+          >
+            {loading ? (
+              <Loading size="15px" />
+            ) : noMorePosts ? (
+              'Sem mais posts'
+            ) : (
+              'Carregar mais'
+            )}
           </Button>
         )}
       </Styled.ButtonContainer>
