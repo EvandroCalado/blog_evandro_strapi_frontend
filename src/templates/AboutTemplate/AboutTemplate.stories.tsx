@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import AboutTemplate, { AboutTemplateProps } from '.';
+import AboutTemplate, { AboutTemplateProps } from './AboutTemplate';
 
 import aboutMock from '../../utils/about.json';
 import mock from '../../utils/db.json';

@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import ComingSoon from '../../components/Shared/ComingSoon/ComingSoon';
 import { QUERIES_GET_POSTS } from '../../graphql/queries';
-import Base from '../../templates/BaseTemplate';
+import Base from '../../templates/BaseTemplate/BaseTemplate';
 import { Setting } from '../../types/strapi';
 import { loadPosts } from '../../utils/load-posts';
 

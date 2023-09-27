@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { QUERIES_GET_POSTS } from '../graphql/queries';
-import PostsTemplate from '../templates/PostsTemplate';
+import PostsTemplate from '../templates/PostsTemplate/PostsTemplate';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,

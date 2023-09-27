@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import AuthorPerfil from '../../components/Blog/AuthorPerfil/AuthorPerfil';
 import PostGrid from '../../components/Blog/PostGrid/PostGrid';
 import Button from '../../components/Shared/Button/Button';
 import {
@@ -7,10 +8,10 @@ import {
 } from '../../types/strapi';
 import { LoadPostsVariables, loadPosts } from '../../utils/load-posts';
 import { paginationQueries } from '../../utils/pagination-queries';
-import Base from '../BaseTemplate';
-import * as Styled from './styles';
+import Base from '../BaseTemplate/BaseTemplate';
+import * as Styled from './AuthorTemplate.styles';
 
-export interface PostsTemplateProps {
+export interface AuthorTemplateProps {
   posts: StrapiPosts;
   setting: StrapiSetting;
   gridTitle?: string;
@@ -18,13 +19,13 @@ export interface PostsTemplateProps {
   route?: string;
 }
 
-export default function PostsTemplate({
+export default function AuthorTemplate({
   posts,
   setting,
   gridTitle,
   variables,
   route,
-}: PostsTemplateProps) {
+}: AuthorTemplateProps) {
   const [statePosts, setStatePosts] = useState(posts);
   const [stateVariables, setStateVariables] = useState(variables);
   const [buttonDisabled, setButtonDisabled] = useState(false);
@@ -61,13 +62,15 @@ export default function PostsTemplate({
 
   return (
     <Base setting={setting}>
+      <AuthorPerfil
+        author={posts.data[0].attributes.author}
+        pagination={posts.meta.pagination}
+      />
       <PostGrid posts={statePosts} gridTitle={gridTitle} />
       <Styled.ButtonContainer>
-        {posts.data.length === 0 ? null : (
-          <Button onClick={handleLoadMorePosts} disabled={buttonDisabled}>
-            {noMorePosts ? 'Sem mais posts' : 'Carregar mais'}
-          </Button>
-        )}
+        <Button onClick={handleLoadMorePosts} disabled={buttonDisabled}>
+          {noMorePosts ? 'Sem mais posts' : 'Carregar mais'}
+        </Button>
       </Styled.ButtonContainer>
     </Base>
   );

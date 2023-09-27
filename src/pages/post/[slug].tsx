@@ -5,7 +5,7 @@ import {
   QUERIES_GET_POSTS,
   QUERIES_GET_POSTS_BY_SLUG,
 } from '../../graphql/queries';
-import PostTamplate from '../../templates/PostTamplate';
+import PostTamplate from '../../templates/PostTamplate/PostTamplate';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,

@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import PostsTemplate, { PostsTemplateProps } from '.';
+import PostsTemplate, { PostsTemplateProps } from './PostsTemplate';
 
 import mock from '../../utils/db.json';
 const posts = mock.data.posts;

@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { QUERIES_GET_POSTS_BY_CATEGORY } from '../../graphql/queries';
-import PostsTemplate from '../../templates/PostsTemplate';
+import PostsTemplate from '../../templates/PostsTemplate/PostsTemplate';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,

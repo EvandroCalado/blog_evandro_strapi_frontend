@@ -3,7 +3,7 @@ import {
   Post as StrapiPost,
   Setting as StrapiSetting,
 } from '../../types/strapi';
-import Base from '../BaseTemplate';
+import Base from '../BaseTemplate/BaseTemplate';
 
 export interface PostTemplateProps {
   setting: StrapiSetting;

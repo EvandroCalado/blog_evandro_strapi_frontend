@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import PostTemplate, { PostTemplateProps } from '.';
+import PostTemplate, { PostTemplateProps } from './PostTamplate';
 
 import mock from '../../utils/db.json';
 const setting = mock.data.setting;

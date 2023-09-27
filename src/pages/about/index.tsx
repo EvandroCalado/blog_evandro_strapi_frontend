@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next';
 import { QUERIES_GET_ABOUT, QUERIES_GET_POSTS } from '../../graphql/queries';
-import AboutTemplate from '../../templates/AboutTemplate';
+import AboutTemplate from '../../templates/AboutTemplate/AboutTemplate';
 import { Setting as SettingStrapi } from '../../types/strapi';
 import { About as AboutStrapi } from '../../types/strapi-about';
 import { loadPosts } from '../../utils/load-posts';

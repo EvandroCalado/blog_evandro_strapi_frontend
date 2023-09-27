@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import BaseTemplate, { BaseTemplateProps } from '.';
+import BaseTemplate, { BaseTemplateProps } from './BaseTemplate';
 
 import mock from '../../utils/db.json';
 const setting = mock.data.setting;
