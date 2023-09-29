@@ -273,3 +273,53 @@ export const QUERIES_GET_ABOUT = gql`
   }
 }
 `;
+
+export const QUERIES_GET_PROJECTS = gql`
+query GET_PROJECTS($sort: [String] = "createdAt:desc") {
+  projects(sort: $sort) {
+    data {
+      id
+      attributes {
+        title
+        description
+        cover {
+          data {
+            id
+            attributes {
+              name
+              width
+              height
+              url
+              formats
+            }
+          }
+        }
+        isPinned
+        project_categories {
+          data {
+            id
+            attributes {
+              displayName
+              slug
+              color
+            }
+          }
+        }
+        ProjectLink {
+          id
+          project_host {
+            data {
+              id
+              attributes {
+                displayName
+                color
+              }
+            }
+          }
+          link
+        }
+      }
+    }
+  }
+}
+`;
