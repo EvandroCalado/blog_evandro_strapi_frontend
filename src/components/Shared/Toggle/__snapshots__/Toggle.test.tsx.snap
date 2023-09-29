@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toggle /> should render a snapshot 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.c0 svg {
+  position: absolute;
+  inset: 1.6px;
+  width: 3rem;
+}
+
+.c0 svg:last-of-type {
+  transform: translateX(26.5px);
+}
+
+.c2 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.c3 {
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+  border: 1px solid;
+}
+
+.c3:before {
+  position: absolute;
+  content: '';
+  height: 25.5px;
+  width: 25.5px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #020415;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.c1:checked+.c3:before {
+  -webkit-transform: translateX(25px);
+  -ms-transform: translateX(25px);
+  transform: translateX(25px);
+}
+
+<div>
+  <label
+    class="c0"
+  >
+    <input
+      class="c1 c2"
+      type="checkbox"
+    />
+    <span
+      class="c3"
+    />
+    <svg
+      class="icon icon-tabler icon-tabler-sun"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="{1}"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+        stroke="none"
+      />
+      <path
+        d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"
+      />
+      <path
+        d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"
+      />
+    </svg>
+    <svg
+      class="icon icon-tabler icon-tabler-moon"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="{1}"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+        stroke="none"
+      />
+      <path
+        d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"
+      />
+    </svg>
+  </label>
+</div>
+`;

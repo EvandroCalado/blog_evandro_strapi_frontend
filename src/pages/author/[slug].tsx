@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { QUERIES_GET_POSTS_BY_AUTHOR } from '../../graphql/queries';
-import AuthorTemplate from '../../templates/AuthorTemplate';
+import AuthorTemplate from '../../templates/AuthorTemplate/AuthorTemplate';
 import {
   Posts as StrapiPosts,
   Setting as StrapiSetting,

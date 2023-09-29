@@ -1,4 +1,4 @@
-import Error404 from '../components/Error404';
+import Error404 from '../components/Shared/Error404/Error404';
 
 export default function Page404() {
   return <Error404 />;
