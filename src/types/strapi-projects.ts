@@ -7,10 +7,10 @@ interface Data2 {
 }
 
 export interface Projects {
-  data: Datum3[];
+  data: Project[];
 }
 
-interface Datum3 {
+export interface Project {
   id: string;
   attributes: Attributes4;
 }
@@ -20,8 +20,8 @@ interface Attributes4 {
   description: string;
   cover: Cover;
   isPinned: boolean;
-  project_categories: Projectcategories;
   ProjectLink: ProjectLink[];
+  createdAt: string;
 }
 
 export interface ProjectLink {
@@ -41,21 +41,6 @@ interface Data {
 
 interface Attributes3 {
   displayName: string;
-  color: string;
-}
-
-export interface Projectcategories {
-  data: Datum2[];
-}
-
-interface Datum2 {
-  id: string;
-  attributes: Attributes2;
-}
-
-interface Attributes2 {
-  displayName: string;
-  slug: string;
   color: string;
 }
 
