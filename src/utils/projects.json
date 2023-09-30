@@ -3,6 +3,459 @@
     "projects": {
       "data": [
         {
+          "id": "9",
+          "attributes": {
+            "title": "Blog pessoal",
+            "description": "<p style=\"margin-left:0px;\"><strong>Um blog sobre projetos e aprendizado em tecnologia</strong></p><p style=\"margin-left:0px;\"><strong>Aqui você encontra:</strong></p><ul><li>Projetos pessoais, como web, mobile, api, etc.</li><li>Artigos sobre projetos &nbsp;como eles funcionam ou como foram feitos.</li><li>Artigos sobre coisas que estou estudando, como padrôes de projeto, python, etc.</li></ul><p style=\"margin-left:0px;\"><strong>Espero que você encontre este blog interessante e informativo.</strong></p>",
+            "cover": {
+              "data": [
+                {
+                  "id": "10",
+                  "attributes": {
+                    "name": "blog-pessoal.png",
+                    "width": 1898,
+                    "height": 932,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/blog_pessoal_aa875087bb.png",
+                    "formats": {
+                      "large": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/large_blog_pessoal_aa875087bb.png",
+                        "hash": "large_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "large_blog-pessoal.png",
+                        "path": null,
+                        "size": 250.7,
+                        "width": 1000,
+                        "height": 491,
+                        "provider_metadata": {
+                          "public_id": "large_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/small_blog_pessoal_aa875087bb.png",
+                        "hash": "small_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "small_blog-pessoal.png",
+                        "path": null,
+                        "size": 75.43,
+                        "width": 500,
+                        "height": 246,
+                        "provider_metadata": {
+                          "public_id": "small_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/medium_blog_pessoal_aa875087bb.png",
+                        "hash": "medium_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "medium_blog-pessoal.png",
+                        "path": null,
+                        "size": 150.74,
+                        "width": 750,
+                        "height": 368,
+                        "provider_metadata": {
+                          "public_id": "medium_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/thumbnail_blog_pessoal_aa875087bb.png",
+                        "hash": "thumbnail_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "thumbnail_blog-pessoal.png",
+                        "path": null,
+                        "size": 21.5,
+                        "width": 245,
+                        "height": 120,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "isPinned": false,
+            "ProjectLink": [
+              {
+                "id": "21",
+                "project_host": {
+                  "data": {
+                    "id": "1",
+                    "attributes": {
+                      "displayName": "Github",
+                      "color": "#0D1117"
+                    }
+                  }
+                },
+                "link": "https://github.com/EvandroCalado/blog_evandro_strapi_frontend"
+              },
+              {
+                "id": "22",
+                "project_host": {
+                  "data": {
+                    "id": "2",
+                    "attributes": {
+                      "displayName": "Vercel",
+                      "color": "#1A1A1A"
+                    }
+                  }
+                },
+                "link": "https://www.evandrocalado.tech"
+              },
+              {
+                "id": "23",
+                "project_host": {
+                  "data": {
+                    "id": "4",
+                    "attributes": {
+                      "displayName": "Strapi",
+                      "color": "#4946FF"
+                    }
+                  }
+                },
+                "link": "https://github.com/EvandroCalado/blog_evandro_strapi_backend"
+              },
+              {
+                "id": "24",
+                "project_host": {
+                  "data": {
+                    "id": "3",
+                    "attributes": {
+                      "displayName": "Storybook",
+                      "color": "#FF4785"
+                    }
+                  }
+                },
+                "link": "#"
+              },
+              {
+                "id": "25",
+                "project_host": {
+                  "data": {
+                    "id": "5",
+                    "attributes": {
+                      "displayName": "Blog",
+                      "color": "#383FEF"
+                    }
+                  }
+                },
+                "link": "#"
+              }
+            ],
+            "createdAt": "2023-09-28T03:01:49.559Z"
+          }
+        },
+        {
+          "id": "8",
+          "attributes": {
+            "title": "Blog pessoal sobre projetos e estudos  3",
+            "description": "<p style=\"margin-left:0px;\">Este blog é um espaço para compartilhar meus projetos e artigos sobre eles, bem como outras coisas que estou estudando.</p><p style=\"margin-left:0px;\">Aqui, você encontrará:</p><ul><li><strong>Projetos pessoais</strong>, como web, mobile, api, etc.</li><li><strong>Artigos sobre projetos</strong>, que explicam como eles funcionam ou como foram feitos.</li><li><strong>Artigos sobre outras coisas que estou estudando</strong>, como padrôes de projeto, python, etc.</li></ul><p style=\"margin-left:0px;\">Espero que você encontre este blog interessante e informativo.</p>",
+            "cover": {
+              "data": [
+                {
+                  "id": "10",
+                  "attributes": {
+                    "name": "blog-pessoal.png",
+                    "width": 1898,
+                    "height": 932,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/blog_pessoal_aa875087bb.png",
+                    "formats": {
+                      "large": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/large_blog_pessoal_aa875087bb.png",
+                        "hash": "large_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "large_blog-pessoal.png",
+                        "path": null,
+                        "size": 250.7,
+                        "width": 1000,
+                        "height": 491,
+                        "provider_metadata": {
+                          "public_id": "large_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/small_blog_pessoal_aa875087bb.png",
+                        "hash": "small_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "small_blog-pessoal.png",
+                        "path": null,
+                        "size": 75.43,
+                        "width": 500,
+                        "height": 246,
+                        "provider_metadata": {
+                          "public_id": "small_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/medium_blog_pessoal_aa875087bb.png",
+                        "hash": "medium_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "medium_blog-pessoal.png",
+                        "path": null,
+                        "size": 150.74,
+                        "width": 750,
+                        "height": 368,
+                        "provider_metadata": {
+                          "public_id": "medium_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/thumbnail_blog_pessoal_aa875087bb.png",
+                        "hash": "thumbnail_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "thumbnail_blog-pessoal.png",
+                        "path": null,
+                        "size": 21.5,
+                        "width": 245,
+                        "height": 120,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "isPinned": false,
+            "ProjectLink": [
+              {
+                "id": "17",
+                "project_host": {
+                  "data": {
+                    "id": "1",
+                    "attributes": {
+                      "displayName": "Github",
+                      "color": "#0D1117"
+                    }
+                  }
+                },
+                "link": "https://github.com/EvandroCalado/blog_evandro_strapi_frontend"
+              },
+              {
+                "id": "16",
+                "project_host": {
+                  "data": {
+                    "id": "2",
+                    "attributes": {
+                      "displayName": "Vercel",
+                      "color": "#1A1A1A"
+                    }
+                  }
+                },
+                "link": "https://www.evandrocalado.tech"
+              },
+              {
+                "id": "18",
+                "project_host": {
+                  "data": {
+                    "id": "4",
+                    "attributes": {
+                      "displayName": "Strapi",
+                      "color": "#4946FF"
+                    }
+                  }
+                },
+                "link": "https://github.com/EvandroCalado/blog_evandro_strapi_backend"
+              },
+              {
+                "id": "19",
+                "project_host": {
+                  "data": {
+                    "id": "3",
+                    "attributes": {
+                      "displayName": "Storybook",
+                      "color": "#FF4785"
+                    }
+                  }
+                },
+                "link": "#"
+              },
+              {
+                "id": "20",
+                "project_host": {
+                  "data": {
+                    "id": "5",
+                    "attributes": {
+                      "displayName": "Blog",
+                      "color": "#383FEF"
+                    }
+                  }
+                },
+                "link": "#"
+              }
+            ],
+            "createdAt": "2023-09-28T03:00:50.535Z"
+          }
+        },
+        {
+          "id": "7",
+          "attributes": {
+            "title": "Blog pessoal sobre projetos e estudos 2",
+            "description": "<p style=\"margin-left:0px;\">Este blog é um espaço para compartilhar meus projetos e artigos sobre eles, bem como outras coisas que estou estudando.</p><p style=\"margin-left:0px;\">Aqui, você encontrará:</p><ul><li><strong>Projetos pessoais</strong>, como web, mobile, api, etc.</li><li><strong>Artigos sobre projetos</strong>, que explicam como eles funcionam ou como foram feitos.</li><li><strong>Artigos sobre outras coisas que estou estudando</strong>, como padrôes de projeto, python, etc.</li></ul><p style=\"margin-left:0px;\">Espero que você encontre este blog interessante e informativo.</p>",
+            "cover": {
+              "data": [
+                {
+                  "id": "10",
+                  "attributes": {
+                    "name": "blog-pessoal.png",
+                    "width": 1898,
+                    "height": 932,
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/blog_pessoal_aa875087bb.png",
+                    "formats": {
+                      "large": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/large_blog_pessoal_aa875087bb.png",
+                        "hash": "large_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "large_blog-pessoal.png",
+                        "path": null,
+                        "size": 250.7,
+                        "width": 1000,
+                        "height": 491,
+                        "provider_metadata": {
+                          "public_id": "large_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/small_blog_pessoal_aa875087bb.png",
+                        "hash": "small_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "small_blog-pessoal.png",
+                        "path": null,
+                        "size": 75.43,
+                        "width": 500,
+                        "height": 246,
+                        "provider_metadata": {
+                          "public_id": "small_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/medium_blog_pessoal_aa875087bb.png",
+                        "hash": "medium_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "medium_blog-pessoal.png",
+                        "path": null,
+                        "size": 150.74,
+                        "width": 750,
+                        "height": 368,
+                        "provider_metadata": {
+                          "public_id": "medium_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1695605215/thumbnail_blog_pessoal_aa875087bb.png",
+                        "hash": "thumbnail_blog_pessoal_aa875087bb",
+                        "mime": "image/png",
+                        "name": "thumbnail_blog-pessoal.png",
+                        "path": null,
+                        "size": 21.5,
+                        "width": 245,
+                        "height": 120,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_blog_pessoal_aa875087bb",
+                          "resource_type": "image"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "isPinned": true,
+            "ProjectLink": [
+              {
+                "id": "11",
+                "project_host": {
+                  "data": {
+                    "id": "1",
+                    "attributes": {
+                      "displayName": "Github",
+                      "color": "#0D1117"
+                    }
+                  }
+                },
+                "link": "https://github.com/EvandroCalado/blog_evandro_strapi_frontend"
+              },
+              {
+                "id": "14",
+                "project_host": {
+                  "data": {
+                    "id": "2",
+                    "attributes": {
+                      "displayName": "Vercel",
+                      "color": "#1A1A1A"
+                    }
+                  }
+                },
+                "link": "https://www.evandrocalado.tech"
+              },
+              {
+                "id": "12",
+                "project_host": {
+                  "data": {
+                    "id": "4",
+                    "attributes": {
+                      "displayName": "Strapi",
+                      "color": "#4946FF"
+                    }
+                  }
+                },
+                "link": "https://github.com/EvandroCalado/blog_evandro_strapi_backend"
+              },
+              {
+                "id": "13",
+                "project_host": {
+                  "data": {
+                    "id": "3",
+                    "attributes": {
+                      "displayName": "Storybook",
+                      "color": "#FF4785"
+                    }
+                  }
+                },
+                "link": "#"
+              },
+              {
+                "id": "15",
+                "project_host": {
+                  "data": {
+                    "id": "5",
+                    "attributes": {
+                      "displayName": "Blog",
+                      "color": "#383FEF"
+                    }
+                  }
+                },
+                "link": "#"
+              }
+            ],
+            "createdAt": "2023-09-28T03:00:07.430Z"
+          }
+        },
+        {
           "id": "4",
           "attributes": {
             "title": "Blog pessoal sobre projetos e estudos",
@@ -83,74 +536,6 @@
               ]
             },
             "isPinned": true,
-            "project_categories": {
-              "data": [
-                {
-                  "id": "1",
-                  "attributes": {
-                    "displayName": "React",
-                    "slug": "react",
-                    "color": "#149ECA"
-                  }
-                },
-                {
-                  "id": "2",
-                  "attributes": {
-                    "displayName": "Next",
-                    "slug": "next",
-                    "color": "#1F1F1F"
-                  }
-                },
-                {
-                  "id": "15",
-                  "attributes": {
-                    "displayName": "Strapi",
-                    "slug": "strapi",
-                    "color": "#4945FF"
-                  }
-                },
-                {
-                  "id": "4",
-                  "attributes": {
-                    "displayName": "Styled Components",
-                    "slug": "styled-components",
-                    "color": "#27212E"
-                  }
-                },
-                {
-                  "id": "5",
-                  "attributes": {
-                    "displayName": "Storybook",
-                    "slug": "storybook",
-                    "color": "#FF4785"
-                  }
-                },
-                {
-                  "id": "6",
-                  "attributes": {
-                    "displayName": "Jest",
-                    "slug": "jest",
-                    "color": "#18DF16"
-                  }
-                },
-                {
-                  "id": "7",
-                  "attributes": {
-                    "displayName": "Typescript",
-                    "slug": "typescript",
-                    "color": "#3178C6"
-                  }
-                },
-                {
-                  "id": "3",
-                  "attributes": {
-                    "displayName": "Graphql",
-                    "slug": "graphql",
-                    "color": "#F6009C"
-                  }
-                }
-              ]
-            },
             "ProjectLink": [
               {
                 "id": "6",
@@ -217,7 +602,8 @@
                 },
                 "link": "#"
               }
-            ]
+            ],
+            "createdAt": "2023-09-25T12:04:50.947Z"
           }
         }
       ]
