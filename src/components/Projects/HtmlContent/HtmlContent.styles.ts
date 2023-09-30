@@ -2,6 +2,10 @@ import styled, { css } from 'styled-components';
 
 export const Content = styled.div`
   ${({ theme }) => css`
+  & p {
+    margin: ${theme.spacings.xs} 0;
+  }
+
   & a {
     font-weight: bold;
     transition: ${theme.transitions.faster};
@@ -15,9 +19,13 @@ export const Content = styled.div`
       }
   }
 
-  ul,
-  ol {
+  & ul,
+  & ol {
     margin: ${theme.spacings.sm} ${theme.spacings.lg};
+  }
+
+  & li {
+    margin: ${theme.spacings.xs} 0;
   }
 
   blockquote {
